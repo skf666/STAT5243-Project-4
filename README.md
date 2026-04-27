@@ -183,7 +183,7 @@ STAT5243-Project-4/
 | Member | Contribution |
 |---|---|
 | Zeming Liang | TBD |
-| _Collaborator 1_ | TBD |
+| Xiying Chen| TBD |
 | _Collaborator 2_ | TBD |
 
 ---
