@@ -431,7 +431,7 @@ The app uses `shinyswatch.theme.lux` for visual polish and a custom Plotly templ
 |---|---|
 | Zeming Liang (`zl3688`) | End-to-end project lead. Pipeline architecture (`src/scrape`, `src/data_cleaning`, `src/temporal_features`, `src/train`, `src/evaluate`, `src/season_sim`, `src/betting`). Anti-leakage discipline + unit tests. Final report and Shiny app. |
 | Xiying (Elina) Chen (`xiyingchen`) | Unsupervised pipeline (`src/unsupervised`, PCA + K-means + UMAP), EDA figures (`src/eda_figures`), and team-style analysis. {TODO: confirm specific role split in person} |
-| Third contributor (`yh3945-cmd`) | {TODO: yh3945's specific contribution — confirm with collaborator before submission} |
+| Yun Hong (`yh3945-cmd`) | Date analysis and report edition, data collection, preprocessing, and validation to ensure accuracy and consistency across all datasets. Implemented statistical analysis and exploratory data analysis (EDA) to uncover key patterns. |
 
 ---
 
