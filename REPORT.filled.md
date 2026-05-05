@@ -403,7 +403,7 @@ The Shiny-for-Python app at `app.py` packages the entire workflow into a **user-
 5. **Simulator** — drives `src/season_sim.simulate_season` interactively. The user picks a model from a dropdown and clicks "Simulate 1,000 seasons"; the app draws 1,000 Monte Carlo realisations of the 2020-21 schedule from that model's per-match probabilities and returns each team's expected points, expected rank, [5th, 95th] percentile rank band, championship probability, top-4 probability, and relegation probability.
 6. **Leaderboard** — renders `results/leaderboard.csv` directly so the user can read off the bar-to-clear from §6.1 themselves.
 
-The app uses `shinyswatch.theme.lux` for visual polish and a custom Plotly template (`_app_template`) carried over from Project 2 for chart consistency. **Deploy URL:** . The Shiny app is the artefact that satisfies the Bonus criterion: it conveys the data science workflow, key insights, and predictive model in a user-friendly and dynamic format.
+The app uses `shinyswatch.theme.lux` for visual polish and a custom Plotly template (`_app_template`) carried over from Project 2 for chart consistency. **Deploy URL:** https://elinachen.shinyapps.io/epl_prediction_app_elina_2026/  . The Shiny app is the artefact that satisfies the Bonus criterion: it conveys the data science workflow, key insights, and predictive model in a user-friendly and dynamic format.
 
 
 ---
@@ -426,8 +426,8 @@ The app uses `shinyswatch.theme.lux` for visual polish and a custom Plotly templ
 | Member | Contribution |
 |---|---|
 | Zeming Liang (`zl3688`) | End-to-end project lead. Pipeline architecture (`src/scrape`, `src/data_cleaning`, `src/temporal_features`, `src/train`, `src/evaluate`, `src/season_sim`, `src/betting`). Anti-leakage discipline + unit tests. Final report and Shiny app. |
-| Xiying (Elina) Chen (`xiyingchen`) | Unsupervised pipeline (`src/unsupervised`, PCA + K-means + UMAP), EDA figures (`src/eda_figures`), team-style analysis, reports, shiny app |
-| Yun Hong (`yh3945-cmd`) | Date analysis and report edition, data collection, preprocessing, and validation to ensure accuracy and consistency across all datasets. Implemented statistical analysis and exploratory data analysis (EDA) to uncover key patterns. |
+| Xiying Chen ('xc2781') | Unsupervised pipeline (`src/unsupervised`, PCA + K-means + UMAP), EDA figures (`src/eda_figures`), team-style analysis, reports, shiny app |
+| Yun Hong (`yh3945`) | Date analysis and report edition, data collection, preprocessing, and validation to ensure accuracy and consistency across all datasets. Implemented statistical analysis and exploratory data analysis (EDA) to uncover key patterns. |
 
 ---
 
