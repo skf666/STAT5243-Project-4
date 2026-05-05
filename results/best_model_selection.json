@@ -1,0 +1,7 @@
+{
+  "model": "random_forest",
+  "candidate_idx": 7,
+  "params": "{\"max_depth\": 12, \"min_samples_leaf\": 3, \"n_estimators\": 500}",
+  "cv_log_loss_mean": 0.9873610261390317,
+  "n_folds": 17
+}

@@ -1,0 +1,9 @@
+model,candidate_idx,params,cv_log_loss_mean,n_folds
+random_forest,7,"{""max_depth"": 12, ""min_samples_leaf"": 3, ""n_estimators"": 500}",0.9873610261390317,17
+random_forest,3,"{""max_depth"": 12, ""min_samples_leaf"": 3, ""n_estimators"": 300}",0.9880491105967546,17
+random_forest,8,"{""max_depth"": 12, ""min_samples_leaf"": 6, ""n_estimators"": 500}",0.9913338050979337,17
+random_forest,4,"{""max_depth"": 12, ""min_samples_leaf"": 6, ""n_estimators"": 300}",0.9917695529467101,17
+random_forest,5,"{""max_depth"": 8, ""min_samples_leaf"": 3, ""n_estimators"": 500}",0.994528600220985,17
+random_forest,1,"{""max_depth"": 8, ""min_samples_leaf"": 3, ""n_estimators"": 300}",0.9948227837692857,17
+random_forest,2,"{""max_depth"": 8, ""min_samples_leaf"": 6, ""n_estimators"": 300}",0.9960806486029542,17
+random_forest,6,"{""max_depth"": 8, ""min_samples_leaf"": 6, ""n_estimators"": 500}",0.9961927287885054,17
