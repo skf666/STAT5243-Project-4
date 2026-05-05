@@ -1,6 +1,6 @@
 # STAT 5243 Project 4 — End-to-End ML for English Premier League Match Prediction
 
-> **Goal:** Predict the 2020-21 EPL season using 2000-01 through 2019-20 as training data (≈8,000 matches, 21 seasons). Multi-source self-collected data, including unstructured BBC match-report HTML processed via NLP into structured features.
+> **Goal:** Predict the 2020–21 EPL season using 2000–01 through 2019–20 as training data, covering approximately 8,000 matches across 21 seasons. The project uses multi-source, self-collected data, including structured match statistics and unstructured BBC / Guardian match-report HTML and Wikipedia season recap text processed through an NLP pipeline with BeautifulSoup, spaCy, VADER, and regex-based event tagging.
 
 **GitHub:** <https://github.com/ZemingLiang/STAT5243-Project-4>
 
