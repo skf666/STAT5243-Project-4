@@ -180,12 +180,10 @@ STAT5243-Project-4/
 ---
 
 ## Team contributions
-
-| Member | Contribution |
-| Kaifeng Si|Data Pre-processing, Feature Engineering|
-| Zeming Liang | Data Collection & Preparation, Exploratory Data Analysis |
-| Xiying Chen| Feature Engineering, Supervised Modeling |
-| Yun Hong | Model Evaluation & Selection, Reports |
+- Kaifeng Si|Data Pre-processing, Feature Engineering|
+- Zeming Liang | Data Collection & Preparation, Exploratory Data Analysis |
+- Xiying Chen| Feature Engineering, Supervised Modeling |
+- Yun Hong | Model Evaluation & Selection, Reports |
 
 ---
 
