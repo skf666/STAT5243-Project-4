@@ -1,0 +1,381 @@
+match_date,home_team_raw,away_team_raw,home_goals,away_goals,result,home_goals_ht,away_goals_ht,result_ht,referee,home_shots,away_shots,home_shots_target,away_shots_target,home_corners,away_corners,home_fouls,away_fouls,home_yellows,away_yellows,home_reds,away_reds,odds_home_pinnacle_close,odds_draw_pinnacle_close,odds_away_pinnacle_close,odds_home_b365_close,odds_draw_b365_close,odds_away_b365_close,odds_over25_pinnacle_close,odds_under25_pinnacle_close,season,home_team,away_team
+2019-08-09,Liverpool,Norwich,4,1,H,4,0,H,M Oliver,15,12,7,5,11,2,9,9,0,2,0,0,1.14,10.43,19.63,1.14,10.0,19.0,1.34,3.44,2019-20,Liverpool,Norwich City
+2019-08-10,West Ham,Man City,0,5,A,0,1,A,M Dean,5,14,3,9,1,1,6,13,2,2,0,0,11.11,6.68,1.27,12.0,6.5,1.22,1.43,3.03,2019-20,West Ham United,Manchester City
+2019-08-10,Bournemouth,Sheffield United,1,1,D,0,0,D,K Friend,13,8,3,3,3,4,10,19,2,1,0,0,1.98,3.67,4.06,1.95,3.6,3.6,1.94,1.97,2019-20,AFC Bournemouth,Sheffield United
+2019-08-10,Burnley,Southampton,3,0,H,0,0,D,G Scott,10,11,4,3,2,7,6,12,0,0,0,0,2.71,3.19,2.9,2.62,3.2,2.75,2.19,1.76,2019-20,Burnley,Southampton
+2019-08-10,Crystal Palace,Everton,0,0,D,0,0,D,J Moss,6,10,2,3,6,2,16,14,2,1,0,1,3.37,3.45,2.27,3.0,3.25,2.37,2.22,1.74,2019-20,Crystal Palace,Everton
+2019-08-10,Watford,Brighton,0,3,A,0,1,A,C Pawson,11,5,3,3,5,2,15,11,0,1,0,0,2.05,3.38,4.12,1.9,3.4,4.0,2.16,1.78,2019-20,Watford,Brighton & Hove Albion
+2019-08-10,Tottenham,Aston Villa,3,1,H,0,1,A,C Kavanagh,31,7,7,4,14,0,13,9,1,0,0,0,1.39,5.35,8.42,1.3,5.25,10.0,1.58,2.52,2019-20,Tottenham Hotspur,Aston Villa
+2019-08-11,Leicester,Wolves,0,0,D,0,0,D,A Marriner,15,8,1,2,12,3,3,13,0,2,0,0,2.5,3.12,3.3,2.2,3.2,3.4,2.45,1.63,2019-20,Leicester City,Wolverhampton Wanderers
+2019-08-11,Newcastle,Arsenal,0,1,A,0,0,D,M Atkinson,9,8,2,2,5,3,12,7,1,3,0,0,3.36,3.56,2.25,4.5,3.75,1.72,1.83,2.09,2019-20,Newcastle United,Arsenal
+2019-08-11,Man United,Chelsea,4,0,H,1,0,H,A Taylor,11,18,5,7,3,5,15,13,3,4,0,0,2.04,3.44,4.14,2.1,3.3,3.5,2.05,1.88,2019-20,Manchester United,Chelsea
+2019-08-17,Arsenal,Burnley,2,1,H,1,1,D,M Dean,16,18,9,5,10,7,13,11,2,1,0,0,1.38,5.35,8.78,1.3,5.5,10.0,1.63,2.42,2019-20,Arsenal,Burnley
+2019-08-17,Aston Villa,Bournemouth,1,2,A,0,2,A,M Atkinson,22,12,7,4,10,5,10,13,0,2,0,0,2.3,3.69,3.11,2.3,3.4,3.1,1.64,2.39,2019-20,Aston Villa,AFC Bournemouth
+2019-08-17,Brighton,West Ham,1,1,D,0,0,D,A Taylor,16,8,4,3,8,6,11,10,0,2,0,0,2.22,3.6,3.34,2.55,3.25,2.87,1.95,1.97,2019-20,Brighton & Hove Albion,West Ham United
+2019-08-17,Everton,Watford,1,0,H,1,0,H,L Mason,12,8,2,2,4,7,11,11,2,3,0,0,1.85,3.66,4.64,1.72,3.8,4.75,1.81,2.12,2019-20,Everton,Watford
+2019-08-17,Norwich,Newcastle,3,1,H,1,0,H,S Attwell,15,10,8,3,7,5,9,11,1,3,0,0,2.14,3.57,3.58,2.25,3.3,3.3,1.96,1.96,2019-20,Norwich City,Newcastle United
+2019-08-17,Southampton,Liverpool,1,2,A,0,1,A,A Marriner,14,15,3,6,5,9,10,6,2,1,0,0,6.43,4.57,1.53,6.5,4.75,1.44,1.66,2.36,2019-20,Southampton,Liverpool
+2019-08-17,Man City,Tottenham,2,2,D,2,1,H,M Oliver,30,3,10,2,13,2,14,4,1,0,0,0,1.37,5.63,8.39,1.36,5.25,8.0,1.52,2.71,2019-20,Manchester City,Tottenham Hotspur
+2019-08-18,Sheffield United,Crystal Palace,1,0,H,0,0,D,D Coote,15,6,3,4,8,4,16,11,3,1,0,0,2.51,3.33,3.08,2.55,3.1,2.9,2.13,1.8,2019-20,Sheffield United,Crystal Palace
+2019-08-18,Chelsea,Leicester,1,1,D,1,0,H,O Langford,14,12,5,3,4,5,9,14,1,0,0,0,1.73,3.9,5.23,1.7,3.75,5.0,1.83,2.1,2019-20,Chelsea,Leicester City
+2019-08-19,Wolves,Man United,1,1,D,0,1,A,J Moss,6,9,2,2,4,6,17,8,2,2,0,0,2.98,3.32,2.56,3.3,3.3,2.25,2.17,1.78,2019-20,Wolverhampton Wanderers,Manchester United
+2019-08-23,Aston Villa,Everton,2,0,H,1,0,H,M Oliver,7,12,3,1,0,6,10,18,2,3,0,0,3.1,3.41,2.43,3.25,3.5,2.15,1.88,2.04,2019-20,Aston Villa,Everton
+2019-08-24,Norwich,Chelsea,2,3,A,2,2,D,M Atkinson,6,23,5,8,1,8,9,9,1,1,0,0,4.17,3.91,1.89,4.33,3.75,1.8,1.6,2.5,2019-20,Norwich City,Chelsea
+2019-08-24,Brighton,Southampton,0,2,A,0,0,D,K Friend,12,12,3,4,8,5,9,10,1,3,1,0,2.33,3.26,3.44,2.4,3.3,3.0,2.17,1.77,2019-20,Brighton & Hove Albion,Southampton
+2019-08-24,Man United,Crystal Palace,1,2,A,0,1,A,P Tierney,22,5,3,3,8,1,8,18,2,4,0,0,1.37,5.33,9.23,1.33,5.25,9.0,1.68,2.32,2019-20,Manchester United,Crystal Palace
+2019-08-24,Sheffield United,Leicester,1,2,A,0,1,A,A Madley,8,10,3,2,7,4,11,6,1,0,0,0,3.19,3.28,2.44,3.3,3.3,2.25,2.24,1.72,2019-20,Sheffield United,Leicester City
+2019-08-24,Watford,West Ham,1,3,A,1,1,D,C Kavanagh,23,16,3,10,8,7,12,11,1,1,0,0,2.16,3.61,3.48,2.05,3.5,3.5,1.71,2.27,2019-20,Watford,West Ham United
+2019-08-24,Liverpool,Arsenal,3,1,H,1,0,H,A Taylor,25,9,5,3,6,4,8,5,1,1,0,0,1.46,5.12,6.74,1.5,4.6,6.0,1.39,3.24,2019-20,Liverpool,Arsenal
+2019-08-25,Bournemouth,Man City,1,3,A,1,2,A,A Marriner,10,19,7,5,4,5,7,13,1,3,0,0,17.0,9.5,1.16,15.0,7.5,1.16,1.32,3.68,2019-20,AFC Bournemouth,Manchester City
+2019-08-25,Tottenham,Newcastle,0,1,A,0,1,A,M Dean,17,8,2,3,6,6,10,5,2,2,0,0,1.28,6.21,11.48,1.2,6.5,14.0,1.6,2.5,2019-20,Tottenham Hotspur,Newcastle United
+2019-08-25,Wolves,Burnley,1,1,D,0,1,A,C Pawson,17,13,2,4,4,3,9,11,0,2,0,0,1.78,3.51,5.6,1.85,3.4,4.5,2.29,1.69,2019-20,Wolverhampton Wanderers,Burnley
+2019-08-31,Southampton,Man United,1,1,D,0,1,A,M Dean,10,21,2,8,2,3,17,7,1,2,1,0,4.12,3.59,1.99,3.8,3.3,2.05,1.99,1.93,2019-20,Southampton,Manchester United
+2019-08-31,Chelsea,Sheffield United,2,2,D,2,0,H,S Attwell,13,8,5,2,3,4,6,11,0,1,0,0,1.44,4.65,8.21,1.36,4.75,9.0,1.75,2.2,2019-20,Chelsea,Sheffield United
+2019-08-31,Crystal Palace,Aston Villa,1,0,H,0,0,D,K Friend,22,10,5,2,13,2,15,16,2,4,0,1,2.29,3.39,3.4,2.15,3.3,3.5,1.92,2.0,2019-20,Crystal Palace,Aston Villa
+2019-08-31,Leicester,Bournemouth,3,1,H,2,1,H,P Bankes,13,8,5,2,4,5,9,11,1,3,0,0,1.68,4.03,5.4,1.7,4.0,4.75,1.81,2.11,2019-20,Leicester City,AFC Bournemouth
+2019-08-31,Man City,Brighton,4,0,H,2,0,H,J Moss,15,6,6,2,8,1,10,6,1,1,0,0,1.09,13.06,35.17,1.08,10.0,26.0,1.35,3.38,2019-20,Manchester City,Brighton & Hove Albion
+2019-08-31,Newcastle,Watford,1,1,D,1,1,D,G Scott,13,13,5,3,6,5,5,11,2,3,0,0,2.53,3.21,3.13,2.5,3.25,2.87,2.14,1.79,2019-20,Newcastle United,Watford
+2019-08-31,West Ham,Norwich,2,0,H,1,0,H,P Tierney,18,8,8,3,8,2,16,10,2,1,0,0,1.93,4.12,3.8,1.85,3.9,3.9,1.43,3.06,2019-20,West Ham United,Norwich City
+2019-08-31,Burnley,Liverpool,0,3,A,0,2,A,C Kavanagh,7,15,2,7,6,4,10,16,0,0,0,0,9.22,5.77,1.34,9.5,5.5,1.3,1.54,2.65,2019-20,Burnley,Liverpool
+2019-09-01,Everton,Wolves,3,2,H,2,1,H,A Taylor,15,8,6,5,7,7,12,12,1,4,0,1,2.08,3.29,4.19,2.2,3.25,3.5,2.35,1.66,2019-20,Everton,Wolverhampton Wanderers
+2019-09-01,Arsenal,Tottenham,2,2,D,1,2,A,M Atkinson,26,13,8,9,11,6,13,19,3,5,0,0,2.59,3.7,2.72,2.37,3.6,2.8,1.54,2.64,2019-20,Arsenal,Tottenham Hotspur
+2019-09-14,Liverpool,Newcastle,3,1,H,2,1,H,A Marriner,21,8,9,1,10,1,5,4,0,0,0,0,1.21,7.29,14.23,1.14,8.5,17.0,1.51,2.74,2019-20,Liverpool,Newcastle United
+2019-09-14,Brighton,Burnley,1,1,D,0,0,D,M Oliver,14,7,5,1,3,6,13,7,0,2,0,0,2.15,3.44,3.68,2.15,3.3,3.5,2.16,1.78,2019-20,Brighton & Hove Albion,Burnley
+2019-09-14,Man United,Leicester,1,0,H,1,0,H,M Atkinson,10,9,5,3,3,9,14,14,1,2,0,0,2.19,3.37,3.66,1.95,3.5,4.0,2.06,1.86,2019-20,Manchester United,Leicester City
+2019-09-14,Sheffield United,Southampton,0,1,A,0,0,D,L Mason,17,11,4,7,12,6,10,7,1,1,1,0,2.44,3.3,3.18,2.45,3.2,3.0,2.3,1.69,2019-20,Sheffield United,Southampton
+2019-09-14,Tottenham,Crystal Palace,4,0,H,4,0,H,C Pawson,13,11,5,6,4,3,19,11,4,2,0,0,1.44,4.91,7.61,1.36,5.25,8.0,1.63,2.41,2019-20,Tottenham Hotspur,Crystal Palace
+2019-09-14,Wolves,Chelsea,2,5,A,0,3,A,G Scott,11,15,4,6,7,5,8,11,1,2,0,0,3.1,3.43,2.42,2.9,3.3,2.5,2.04,1.88,2019-20,Wolverhampton Wanderers,Chelsea
+2019-09-14,Norwich,Man City,3,2,H,2,1,H,K Friend,7,25,3,8,3,16,8,7,3,1,0,0,25.83,13.49,1.09,15.0,9.0,1.14,1.2,5.12,2019-20,Norwich City,Manchester City
+2019-09-15,Bournemouth,Everton,3,1,H,1,1,D,P Tierney,13,14,6,5,7,7,5,14,0,4,0,0,3.37,3.57,2.23,2.9,3.5,2.4,1.82,2.11,2019-20,AFC Bournemouth,Everton
+2019-09-15,Watford,Arsenal,2,2,D,0,2,A,A Taylor,31,10,7,4,7,1,14,4,3,3,0,0,4.22,3.92,1.88,3.6,3.6,2.0,1.52,2.69,2019-20,Watford,Arsenal
+2019-09-16,Aston Villa,West Ham,0,0,D,0,0,D,M Dean,10,13,5,1,2,4,13,12,2,1,0,1,2.72,3.71,2.57,2.62,3.5,2.6,1.6,2.5,2019-20,Aston Villa,West Ham United
+2019-09-20,Southampton,Bournemouth,1,3,A,0,2,A,C Kavanagh,25,6,6,3,4,5,8,9,1,3,0,0,2.17,3.6,3.46,2.05,3.6,3.5,1.65,2.37,2019-20,Southampton,AFC Bournemouth
+2019-09-21,Leicester,Tottenham,2,1,H,0,1,A,P Tierney,16,11,7,4,8,2,16,13,1,2,0,0,2.72,3.51,2.69,2.87,3.5,2.37,1.78,2.16,2019-20,Leicester City,Tottenham Hotspur
+2019-09-21,Burnley,Norwich,2,0,H,2,0,H,D Coote,13,11,6,2,7,3,11,10,0,1,0,0,2.02,3.88,3.67,2.0,3.8,3.5,1.68,2.31,2019-20,Burnley,Norwich City
+2019-09-21,Everton,Sheffield United,0,2,A,0,1,A,S Hooper,16,2,3,1,12,3,9,9,1,3,0,0,1.79,3.57,5.31,1.61,3.75,6.0,2.09,1.83,2019-20,Everton,Sheffield United
+2019-09-21,Man City,Watford,8,0,H,5,0,H,M Dean,28,5,11,4,5,4,5,9,2,2,0,0,1.11,11.33,25.74,1.1,11.0,21.0,1.28,4.01,2019-20,Manchester City,Watford
+2019-09-21,Newcastle,Brighton,0,0,D,0,0,D,M Atkinson,11,16,4,3,5,3,12,8,2,1,0,0,2.42,3.24,3.3,2.5,3.2,3.0,2.39,1.65,2019-20,Newcastle United,Brighton & Hove Albion
+2019-09-22,Crystal Palace,Wolves,1,1,D,0,0,D,S Attwell,13,14,4,4,6,7,7,10,2,1,0,1,2.9,3.1,2.81,2.62,3.1,2.87,2.39,1.64,2019-20,Crystal Palace,Wolverhampton Wanderers
+2019-09-22,West Ham,Man United,2,0,H,1,0,H,A Taylor,8,9,6,3,3,7,8,9,2,2,0,0,3.07,3.45,2.45,3.1,3.6,2.2,1.85,2.06,2019-20,West Ham United,Manchester United
+2019-09-22,Arsenal,Aston Villa,3,2,H,0,1,A,J Moss,21,14,6,9,9,4,13,15,5,1,1,0,1.42,5.23,7.59,1.4,4.75,8.0,1.43,3.03,2019-20,Arsenal,Aston Villa
+2019-09-22,Chelsea,Liverpool,1,2,A,0,2,A,M Oliver,13,6,2,3,6,4,8,13,3,3,0,0,3.24,3.64,2.27,3.5,3.75,2.0,1.58,2.54,2019-20,Chelsea,Liverpool
+2019-09-28,Sheffield United,Liverpool,0,1,A,0,0,D,A Taylor,12,16,2,4,6,5,8,4,1,1,0,0,9.44,5.53,1.34,9.0,5.25,1.33,1.65,2.37,2019-20,Sheffield United,Liverpool
+2019-09-28,Aston Villa,Burnley,2,2,D,1,0,H,L Mason,16,10,3,3,7,3,10,16,1,4,0,0,2.36,3.44,3.19,2.3,3.4,3.1,1.93,2.0,2019-20,Aston Villa,Burnley
+2019-09-28,Bournemouth,West Ham,2,2,D,1,1,D,S Attwell,13,17,5,6,6,6,7,8,3,1,0,0,2.41,3.65,2.96,2.5,3.5,2.75,1.54,2.64,2019-20,AFC Bournemouth,West Ham United
+2019-09-28,Chelsea,Brighton,2,0,H,0,0,D,C Kavanagh,24,8,10,1,5,2,5,13,2,3,0,0,1.45,4.64,8.06,1.4,4.75,8.0,1.66,2.36,2019-20,Chelsea,Brighton & Hove Albion
+2019-09-28,Crystal Palace,Norwich,2,0,H,1,0,H,J Moss,15,10,3,3,5,5,14,10,3,1,0,0,1.91,3.89,4.09,1.9,3.75,3.75,1.71,2.26,2019-20,Crystal Palace,Norwich City
+2019-09-28,Tottenham,Southampton,2,1,H,2,1,H,G Scott,9,14,4,6,6,6,5,16,0,2,1,0,1.38,5.23,8.73,1.4,4.75,8.0,1.6,2.48,2019-20,Tottenham Hotspur,Southampton
+2019-09-28,Wolves,Watford,2,0,H,1,0,H,P Tierney,6,14,2,5,1,6,5,6,0,1,0,0,1.96,3.52,4.34,1.85,3.4,4.5,2.01,1.91,2019-20,Wolverhampton Wanderers,Watford
+2019-09-28,Everton,Man City,1,3,A,1,1,D,M Oliver,12,20,8,9,5,2,4,8,2,2,0,0,8.9,5.51,1.36,10.0,5.5,1.3,1.6,2.49,2019-20,Everton,Manchester City
+2019-09-29,Leicester,Newcastle,5,0,H,1,0,H,C Pawson,13,3,5,0,9,0,12,9,1,1,0,1,1.52,4.33,7.04,1.5,4.0,7.5,1.9,2.02,2019-20,Leicester City,Newcastle United
+2019-09-30,Man United,Arsenal,1,1,D,1,0,H,K Friend,16,10,4,5,8,7,18,13,4,2,0,0,2.26,3.57,3.29,2.37,3.5,2.9,1.68,2.31,2019-20,Manchester United,Arsenal
+2019-10-05,Brighton,Tottenham,3,0,H,2,0,H,J Moss,17,8,6,3,4,4,11,7,2,1,0,0,5.15,3.89,1.74,3.9,3.6,1.9,1.78,2.15,2019-20,Brighton & Hove Albion,Tottenham Hotspur
+2019-10-05,Burnley,Everton,1,0,H,0,0,D,G Scott,9,11,3,2,7,9,5,12,2,1,0,1,3.22,3.35,2.39,2.87,3.3,2.5,2.1,1.82,2019-20,Burnley,Everton
+2019-10-05,Liverpool,Leicester,2,1,H,1,0,H,C Kavanagh,18,2,8,1,4,6,9,17,1,4,0,0,1.59,4.42,5.76,1.44,4.75,7.0,1.61,2.47,2019-20,Liverpool,Leicester City
+2019-10-05,Norwich,Aston Villa,1,5,A,0,2,A,A Madley,21,22,5,12,10,6,14,17,1,3,0,0,2.46,3.62,2.9,2.37,3.6,2.8,1.55,2.61,2019-20,Norwich City,Aston Villa
+2019-10-05,Watford,Sheffield United,0,0,D,0,0,D,A Marriner,8,9,2,3,7,7,7,6,0,2,0,0,2.38,3.27,3.32,2.05,3.4,3.6,2.2,1.75,2019-20,Watford,Sheffield United
+2019-10-05,West Ham,Crystal Palace,1,2,A,0,0,D,M Oliver,9,7,4,4,2,2,11,7,3,2,0,0,2.02,3.75,3.85,1.95,3.6,3.8,1.74,2.22,2019-20,West Ham United,Crystal Palace
+2019-10-06,Arsenal,Bournemouth,1,0,H,1,0,H,M Atkinson,12,10,2,2,14,5,12,6,1,2,0,0,1.37,5.83,7.87,1.44,4.75,7.0,1.3,3.83,2019-20,Arsenal,AFC Bournemouth
+2019-10-06,Man City,Wolves,0,2,A,0,0,D,C Pawson,18,7,2,2,9,1,11,14,5,2,0,0,1.14,8.98,21.94,1.12,9.0,21.0,1.4,3.14,2019-20,Manchester City,Wolverhampton Wanderers
+2019-10-06,Southampton,Chelsea,1,4,A,1,3,A,P Tierney,10,13,3,7,3,4,8,15,0,1,0,0,4.75,4.29,1.71,4.0,3.8,1.85,1.55,2.61,2019-20,Southampton,Chelsea
+2019-10-06,Newcastle,Man United,1,0,H,0,0,D,M Dean,12,12,2,3,4,6,12,10,3,3,0,0,3.92,3.37,2.12,4.5,3.5,1.85,2.2,1.75,2019-20,Newcastle United,Manchester United
+2019-10-19,Everton,West Ham,2,0,H,1,0,H,P Tierney,19,8,10,4,11,2,15,15,2,2,0,0,1.79,4.15,4.41,1.95,3.75,3.75,1.61,2.45,2019-20,Everton,West Ham United
+2019-10-19,Aston Villa,Brighton,2,1,H,1,1,D,D Coote,24,20,8,5,7,5,9,17,1,2,0,1,2.43,3.49,3.04,2.35,3.4,3.0,1.81,2.11,2019-20,Aston Villa,Brighton & Hove Albion
+2019-10-19,Bournemouth,Norwich,0,0,D,0,0,D,L Mason,11,10,2,1,6,7,8,11,1,3,0,0,1.78,4.18,4.42,1.72,4.2,4.2,1.43,3.03,2019-20,AFC Bournemouth,Norwich City
+2019-10-19,Chelsea,Newcastle,1,0,H,0,0,D,A Marriner,16,5,8,0,11,0,9,12,2,1,0,0,1.27,6.4,11.56,1.3,5.5,10.0,1.52,2.69,2019-20,Chelsea,Newcastle United
+2019-10-19,Leicester,Burnley,2,1,H,1,1,D,J Moss,19,13,3,4,9,4,4,10,0,3,0,0,1.5,4.48,7.15,1.57,4.0,6.0,1.72,2.25,2019-20,Leicester City,Burnley
+2019-10-19,Tottenham,Watford,1,1,D,0,1,A,C Kavanagh,12,7,2,2,11,2,5,9,4,3,0,0,1.53,4.35,6.74,1.4,5.0,7.5,1.65,2.38,2019-20,Tottenham Hotspur,Watford
+2019-10-19,Wolves,Southampton,1,1,D,0,0,D,P Bankes,4,14,1,5,1,3,10,17,3,2,0,0,2.11,3.24,4.1,1.8,3.6,4.5,2.36,1.66,2019-20,Wolverhampton Wanderers,Southampton
+2019-10-19,Crystal Palace,Man City,0,2,A,0,2,A,A Taylor,7,21,2,10,1,8,8,10,1,1,0,0,12.5,7.64,1.21,12.0,7.0,1.22,1.42,3.08,2019-20,Crystal Palace,Manchester City
+2019-10-20,Man United,Liverpool,1,1,D,1,0,H,M Atkinson,7,10,2,4,3,1,6,14,0,1,0,0,4.19,3.49,2.01,5.25,3.8,1.65,2.12,1.81,2019-20,Manchester United,Liverpool
+2019-10-21,Sheffield United,Arsenal,1,0,H,1,0,H,M Dean,8,9,2,3,7,12,10,12,4,4,0,0,3.72,3.63,2.08,3.9,3.75,1.9,1.91,2.01,2019-20,Sheffield United,Arsenal
+2019-10-25,Southampton,Leicester,0,9,A,0,5,A,A Marriner,6,25,3,15,2,7,3,12,0,0,1,0,3.13,3.32,2.46,3.1,3.4,2.3,2.07,1.85,2019-20,Southampton,Leicester City
+2019-10-26,Man City,Aston Villa,3,0,H,0,0,D,G Scott,25,11,9,5,13,7,10,5,1,1,1,0,1.06,16.5,33.5,1.08,11.0,26.0,1.15,5.83,2019-20,Manchester City,Aston Villa
+2019-10-26,Brighton,Everton,3,2,H,1,1,D,A Madley,8,10,4,6,0,5,12,12,2,1,0,0,2.76,3.3,2.77,2.9,3.25,2.5,2.02,1.89,2019-20,Brighton & Hove Albion,Everton
+2019-10-26,Watford,Bournemouth,0,0,D,0,0,D,M Dean,7,15,3,5,5,10,14,8,5,3,0,0,2.33,3.59,3.12,2.15,3.6,3.25,1.73,2.23,2019-20,Watford,AFC Bournemouth
+2019-10-26,West Ham,Sheffield United,1,1,D,1,0,H,D Coote,12,10,4,4,10,4,7,10,2,2,0,0,2.29,3.4,3.39,2.1,3.5,3.5,1.96,1.96,2019-20,West Ham United,Sheffield United
+2019-10-26,Burnley,Chelsea,2,4,A,0,2,A,M Oliver,13,16,5,7,5,6,7,8,3,2,0,0,5.06,4.07,1.71,4.5,4.0,1.72,1.92,2.0,2019-20,Burnley,Chelsea
+2019-10-27,Newcastle,Wolves,1,1,D,1,0,H,K Friend,13,13,2,5,3,6,8,15,2,2,1,0,3.48,3.09,2.42,3.0,3.1,2.55,2.6,1.56,2019-20,Newcastle United,Wolverhampton Wanderers
+2019-10-27,Arsenal,Crystal Palace,2,2,D,2,1,H,M Atkinson,15,10,6,4,12,5,18,9,2,0,0,0,1.48,4.79,6.92,1.45,4.75,6.5,1.54,2.63,2019-20,Arsenal,Crystal Palace
+2019-10-27,Liverpool,Tottenham,2,1,H,0,1,A,A Taylor,21,11,13,4,8,3,9,11,3,3,0,0,1.47,5.04,6.57,1.5,4.33,6.5,1.42,3.09,2019-20,Liverpool,Tottenham Hotspur
+2019-10-27,Norwich,Man United,1,3,A,0,2,A,S Attwell,10,21,3,11,1,10,13,10,2,2,0,0,4.72,3.73,1.83,4.33,4.0,1.75,1.97,1.94,2019-20,Norwich City,Manchester United
+2019-11-02,Bournemouth,Man United,1,0,H,1,0,H,C Kavanagh,12,15,6,4,4,10,14,12,4,3,0,0,3.67,3.6,2.11,3.25,3.6,2.15,1.99,1.93,2019-20,AFC Bournemouth,Manchester United
+2019-11-02,Arsenal,Wolves,1,1,D,1,0,H,M Oliver,10,25,4,8,8,9,6,15,0,2,0,0,1.76,3.95,4.87,1.75,3.75,4.75,1.68,2.31,2019-20,Arsenal,Wolverhampton Wanderers
+2019-11-02,Aston Villa,Liverpool,1,2,A,1,0,H,J Moss,5,25,2,6,2,10,12,9,1,2,0,0,10.13,6.57,1.28,9.0,5.0,1.33,1.4,3.16,2019-20,Aston Villa,Liverpool
+2019-11-02,Brighton,Norwich,2,0,H,0,0,D,K Friend,21,7,5,0,8,3,11,8,0,1,0,0,1.57,4.56,5.8,1.72,4.2,4.33,1.58,2.52,2019-20,Brighton & Hove Albion,Norwich City
+2019-11-02,Man City,Southampton,2,1,H,0,1,A,L Mason,26,3,4,3,17,0,11,10,3,1,0,0,1.07,14.49,36.78,1.07,13.0,23.0,1.19,5.2,2019-20,Manchester City,Southampton
+2019-11-02,Sheffield United,Burnley,3,0,H,3,0,H,S Hooper,13,6,6,0,7,6,8,12,1,2,0,0,2.29,3.22,3.58,2.25,3.2,3.4,2.47,1.61,2019-20,Sheffield United,Burnley
+2019-11-02,West Ham,Newcastle,2,3,A,0,2,A,S Attwell,16,12,6,9,7,3,10,7,2,1,0,0,1.89,3.64,4.48,1.75,3.8,4.5,1.85,2.06,2019-20,West Ham United,Newcastle United
+2019-11-02,Watford,Chelsea,1,2,A,0,1,A,A Taylor,12,16,3,10,1,6,8,5,4,2,0,0,5.34,4.43,1.63,5.0,4.33,1.61,1.66,2.35,2019-20,Watford,Chelsea
+2019-11-03,Crystal Palace,Leicester,0,2,A,0,0,D,P Tierney,12,14,3,5,5,6,15,16,2,2,0,0,3.86,3.62,2.05,3.5,3.4,2.1,1.94,1.98,2019-20,Crystal Palace,Leicester City
+2019-11-03,Everton,Tottenham,1,1,D,0,0,D,M Atkinson,7,4,3,2,5,2,9,8,1,2,0,1,2.54,3.62,2.82,2.7,3.4,2.6,1.67,2.34,2019-20,Everton,Tottenham Hotspur
+2019-11-08,Norwich,Watford,0,2,A,0,1,A,A Marriner,17,12,5,2,10,4,7,13,1,2,0,1,2.97,3.63,2.41,2.7,3.5,2.55,1.71,2.26,2019-20,Norwich City,Watford
+2019-11-09,Chelsea,Crystal Palace,2,0,H,0,0,D,M Dean,23,3,5,1,7,0,9,17,3,2,0,0,1.44,4.69,7.98,1.33,5.0,10.0,1.63,2.41,2019-20,Chelsea,Crystal Palace
+2019-11-09,Burnley,West Ham,3,0,H,2,0,H,K Friend,14,7,12,4,11,4,17,10,2,1,0,0,2.18,3.63,3.41,2.25,3.5,3.1,1.73,2.23,2019-20,Burnley,West Ham United
+2019-11-09,Newcastle,Bournemouth,2,1,H,1,1,D,M Atkinson,20,16,9,3,5,4,10,5,2,0,0,0,2.69,3.31,2.83,2.55,3.25,2.8,2.21,1.75,2019-20,Newcastle United,AFC Bournemouth
+2019-11-09,Southampton,Everton,1,2,A,0,1,A,P Tierney,4,24,3,5,5,9,12,12,1,1,0,0,3.17,3.35,2.42,2.9,3.3,2.45,2.08,1.83,2019-20,Southampton,Everton
+2019-11-09,Tottenham,Sheffield United,1,1,D,0,0,D,G Scott,17,14,5,4,4,4,6,9,2,2,0,0,1.56,4.41,6.26,1.57,4.0,6.0,1.73,2.23,2019-20,Tottenham Hotspur,Sheffield United
+2019-11-09,Leicester,Arsenal,2,0,H,0,0,D,C Kavanagh,19,8,7,1,5,4,10,10,1,1,0,0,1.93,4.05,3.88,2.0,3.75,3.5,1.49,2.81,2019-20,Leicester City,Arsenal
+2019-11-10,Man United,Brighton,3,1,H,2,0,H,J Moss,21,6,11,2,5,2,10,14,2,5,0,0,1.66,3.69,6.41,1.6,3.75,6.5,2.04,1.88,2019-20,Manchester United,Brighton & Hove Albion
+2019-11-10,Wolves,Aston Villa,2,1,H,1,0,H,A Taylor,17,13,5,4,6,3,17,8,4,3,0,0,1.68,3.97,5.53,1.9,3.5,4.2,1.95,1.97,2019-20,Wolverhampton Wanderers,Aston Villa
+2019-11-10,Liverpool,Man City,3,1,H,2,0,H,M Oliver,12,18,5,3,4,13,10,5,0,2,0,0,2.72,3.64,2.62,2.5,3.6,2.62,1.6,2.5,2019-20,Liverpool,Manchester City
+2019-11-23,West Ham,Tottenham,2,3,A,0,2,A,M Oliver,11,15,4,6,3,7,12,14,3,2,0,0,4.71,4.53,1.69,4.2,4.33,1.7,1.59,2.51,2019-20,West Ham United,Tottenham Hotspur
+2019-11-23,Arsenal,Southampton,2,2,D,1,1,D,S Attwell,12,21,5,6,6,8,13,19,6,2,0,0,1.5,4.54,7.05,1.45,4.75,6.5,1.49,2.8,2019-20,Arsenal,Southampton
+2019-11-23,Bournemouth,Wolves,1,2,A,0,2,A,S Hooper,9,17,2,7,5,9,10,12,2,1,1,0,3.1,3.25,2.52,2.75,3.3,2.6,2.39,1.64,2019-20,AFC Bournemouth,Wolverhampton Wanderers
+2019-11-23,Brighton,Leicester,0,2,A,0,0,D,M Dean,7,19,0,9,6,7,9,1,2,0,0,0,3.9,3.56,2.05,3.75,3.5,2.0,1.93,2.0,2019-20,Brighton & Hove Albion,Leicester City
+2019-11-23,Crystal Palace,Liverpool,1,2,A,0,0,D,K Friend,16,12,6,4,9,8,8,7,0,1,0,0,6.95,4.65,1.49,7.5,4.75,1.4,1.69,2.29,2019-20,Crystal Palace,Liverpool
+2019-11-23,Everton,Norwich,0,2,A,0,0,D,A Taylor,18,13,7,5,7,7,12,11,3,5,0,0,1.34,5.64,9.17,1.36,5.1,8.0,1.51,2.74,2019-20,Everton,Norwich City
+2019-11-23,Watford,Burnley,0,3,A,0,0,D,P Tierney,15,11,4,5,7,5,14,13,0,3,0,0,2.27,3.4,3.42,2.3,3.4,3.1,2.09,1.83,2019-20,Watford,Burnley
+2019-11-23,Man City,Chelsea,2,1,H,2,1,H,M Atkinson,15,11,4,2,8,2,5,9,1,1,0,0,1.38,5.84,7.62,1.44,5.0,6.5,1.37,3.33,2019-20,Manchester City,Chelsea
+2019-11-24,Sheffield United,Man United,3,3,D,1,0,H,A Marriner,12,11,8,5,6,3,13,10,1,2,0,0,3.95,3.45,2.08,3.5,3.4,2.1,2.28,1.7,2019-20,Sheffield United,Manchester United
+2019-11-25,Aston Villa,Newcastle,2,0,H,2,0,H,L Mason,17,11,8,5,11,6,10,9,1,1,0,0,2.22,3.58,3.37,2.05,3.4,3.7,1.76,2.18,2019-20,Aston Villa,Newcastle United
+2019-11-30,Newcastle,Man City,2,2,D,1,1,D,C Kavanagh,6,24,3,9,1,10,4,6,1,2,0,0,11.0,7.75,1.23,13.0,8.0,1.16,1.43,3.04,2019-20,Newcastle United,Manchester City
+2019-11-30,Burnley,Crystal Palace,0,2,A,0,1,A,P Bankes,15,7,4,2,5,6,13,10,2,0,0,0,2.05,3.56,3.89,2.25,3.25,3.3,2.15,1.79,2019-20,Burnley,Crystal Palace
+2019-11-30,Chelsea,West Ham,0,1,A,0,0,D,J Moss,19,5,6,4,9,3,0,16,0,3,0,0,1.3,6.14,10.01,1.28,6.0,9.0,1.37,3.31,2019-20,Chelsea,West Ham United
+2019-11-30,Liverpool,Brighton,2,1,H,2,0,H,M Atkinson,15,12,7,5,4,5,3,10,0,0,1,0,1.2,7.42,14.78,1.18,7.0,15.0,1.4,3.15,2019-20,Liverpool,Brighton & Hove Albion
+2019-11-30,Tottenham,Bournemouth,3,2,H,1,0,H,L Mason,15,20,5,6,4,8,10,12,0,2,0,0,1.34,5.67,9.23,1.36,5.5,7.5,1.54,2.65,2019-20,Tottenham Hotspur,AFC Bournemouth
+2019-11-30,Southampton,Watford,2,1,H,0,1,A,M Oliver,11,6,6,3,6,7,6,10,1,0,0,0,2.1,3.6,3.67,2.1,3.4,3.5,1.89,2.03,2019-20,Southampton,Watford
+2019-12-01,Norwich,Arsenal,2,2,D,2,1,H,P Tierney,15,16,8,7,7,12,8,10,2,1,0,0,4.56,4.49,1.71,4.0,4.33,1.75,1.41,3.11,2019-20,Norwich City,Arsenal
+2019-12-01,Wolves,Sheffield United,1,1,D,0,1,A,D Coote,13,9,3,4,7,2,12,18,1,4,0,0,2.23,3.2,3.82,1.9,3.5,4.2,2.43,1.63,2019-20,Wolverhampton Wanderers,Sheffield United
+2019-12-01,Leicester,Everton,2,1,H,0,1,A,G Scott,16,11,6,3,4,4,7,9,0,1,0,0,1.65,4.08,5.57,1.61,4.0,5.25,1.81,2.12,2019-20,Leicester City,Everton
+2019-12-01,Man United,Aston Villa,2,2,D,1,1,D,C Pawson,16,9,6,3,9,9,16,8,4,1,0,0,1.47,4.75,7.32,1.45,4.5,7.0,1.56,2.6,2019-20,Manchester United,Aston Villa
+2019-12-03,Crystal Palace,Bournemouth,1,0,H,0,0,D,A Taylor,7,6,2,3,6,9,6,15,3,3,1,0,2.27,3.41,3.41,2.2,3.4,3.25,2.04,1.88,2019-20,Crystal Palace,AFC Bournemouth
+2019-12-03,Burnley,Man City,1,4,A,0,1,A,J Moss,4,17,2,8,3,6,9,6,1,1,0,0,10.93,7.61,1.23,11.0,7.0,1.22,1.42,3.08,2019-20,Burnley,Manchester City
+2019-12-04,Chelsea,Aston Villa,2,1,H,1,1,D,C Kavanagh,25,9,9,3,9,5,18,10,2,1,0,0,1.36,5.66,8.46,1.28,5.75,10.0,1.4,3.2,2019-20,Chelsea,Aston Villa
+2019-12-04,Leicester,Watford,2,0,H,0,0,D,C Pawson,12,4,6,1,7,2,13,16,3,2,0,0,1.39,5.26,8.29,1.33,5.5,8.0,1.56,2.6,2019-20,Leicester City,Watford
+2019-12-04,Man United,Tottenham,2,1,H,1,1,D,P Tierney,12,8,7,5,4,3,9,9,0,1,0,0,2.6,3.5,2.82,2.75,3.4,2.55,1.88,2.04,2019-20,Manchester United,Tottenham Hotspur
+2019-12-04,Southampton,Norwich,2,1,H,2,0,H,K Friend,14,10,5,3,6,1,12,7,1,1,0,0,1.76,4.04,4.68,1.72,4.0,4.2,1.68,2.32,2019-20,Southampton,Norwich City
+2019-12-04,Wolves,West Ham,2,0,H,1,0,H,A Marriner,13,6,7,3,5,4,8,9,1,2,0,0,1.67,4.13,5.31,1.75,3.7,4.75,1.82,2.1,2019-20,Wolverhampton Wanderers,West Ham United
+2019-12-04,Liverpool,Everton,5,2,H,4,2,H,M Dean,11,12,5,4,5,6,13,17,1,2,0,0,1.66,4.11,5.59,1.36,5.0,8.5,1.68,2.31,2019-20,Liverpool,Everton
+2019-12-05,Sheffield United,Newcastle,0,2,A,0,1,A,S Attwell,13,6,6,4,8,1,10,6,2,0,0,0,1.79,3.63,5.24,1.83,3.4,4.6,2.2,1.71,2019-20,Sheffield United,Newcastle United
+2019-12-05,Arsenal,Brighton,1,2,A,0,1,A,G Scott,12,20,5,9,9,9,10,11,3,1,0,0,1.66,4.32,5.17,1.57,4.33,5.5,1.5,2.76,2019-20,Arsenal,Brighton & Hove Albion
+2019-12-07,Everton,Chelsea,3,1,H,1,0,H,C Pawson,13,15,7,4,1,5,14,9,3,0,0,0,3.37,3.81,2.15,3.5,3.75,2.0,1.66,2.37,2019-20,Everton,Chelsea
+2019-12-07,Bournemouth,Liverpool,0,3,A,0,2,A,C Kavanagh,3,21,0,9,1,3,5,6,0,1,0,0,6.58,4.63,1.51,7.0,5.25,1.4,1.63,2.43,2019-20,AFC Bournemouth,Liverpool
+2019-12-07,Tottenham,Burnley,5,0,H,3,0,H,K Friend,13,7,7,1,1,1,12,8,1,1,0,0,1.45,4.95,7.29,1.4,4.75,8.0,1.62,2.44,2019-20,Tottenham Hotspur,Burnley
+2019-12-07,Watford,Crystal Palace,0,0,D,0,0,D,M Atkinson,13,3,3,0,6,2,15,16,4,2,0,0,2.48,3.37,3.05,2.37,3.3,3.1,2.12,1.81,2019-20,Watford,Crystal Palace
+2019-12-07,Man City,Man United,1,2,A,0,2,A,A Taylor,22,11,5,7,16,3,10,10,3,2,0,0,1.32,6.2,9.5,1.3,5.5,10.0,1.49,2.81,2019-20,Manchester City,Manchester United
+2019-12-08,Aston Villa,Leicester,1,4,A,1,2,A,M Oliver,15,23,2,8,8,5,21,15,6,2,0,0,4.98,4.16,1.7,4.33,3.8,1.8,1.58,2.54,2019-20,Aston Villa,Leicester City
+2019-12-08,Newcastle,Southampton,2,1,H,0,0,D,D Coote,12,19,6,4,3,12,11,17,1,3,0,0,2.59,3.42,2.87,2.5,3.2,2.9,1.99,1.93,2019-20,Newcastle United,Southampton
+2019-12-08,Norwich,Sheffield United,1,2,A,1,0,H,S Hooper,14,9,4,3,9,1,6,12,0,4,0,0,3.18,3.57,2.31,2.9,3.5,2.37,1.9,2.02,2019-20,Norwich City,Sheffield United
+2019-12-08,Brighton,Wolves,2,2,D,2,2,D,J Moss,13,13,4,5,3,4,10,7,3,0,0,0,2.65,3.22,2.98,2.62,3.1,2.87,2.18,1.76,2019-20,Brighton & Hove Albion,Wolverhampton Wanderers
+2019-12-09,West Ham,Arsenal,1,3,A,1,0,H,M Dean,11,10,4,3,4,3,12,6,2,0,0,0,3.61,4.3,1.95,3.3,4.0,2.0,1.4,3.21,2019-20,West Ham United,Arsenal
+2019-12-14,Liverpool,Watford,2,0,H,1,0,H,A Marriner,16,8,6,2,6,3,8,6,2,1,0,0,1.2,7.46,15.82,1.16,7.5,17.0,1.35,3.48,2019-20,Liverpool,Watford
+2019-12-14,Burnley,Newcastle,1,0,H,0,0,D,T Robinson,7,9,4,0,4,3,15,12,0,2,0,0,2.01,3.52,4.12,1.95,3.4,4.0,2.37,1.65,2019-20,Burnley,Newcastle United
+2019-12-14,Chelsea,Bournemouth,0,1,A,0,0,D,G Scott,18,11,5,2,9,4,9,14,1,2,0,0,1.24,7.01,12.05,1.25,6.0,12.0,1.43,3.01,2019-20,Chelsea,AFC Bournemouth
+2019-12-14,Leicester,Norwich,1,1,D,1,1,D,A Madley,18,10,5,3,12,4,11,15,0,4,0,0,1.25,6.89,11.49,1.22,6.5,13.0,1.39,3.23,2019-20,Leicester City,Norwich City
+2019-12-14,Sheffield United,Aston Villa,2,0,H,0,0,D,P Bankes,7,8,3,0,3,2,10,9,2,2,0,0,1.79,3.89,4.68,1.85,3.75,4.2,1.71,2.26,2019-20,Sheffield United,Aston Villa
+2019-12-14,Southampton,West Ham,0,1,A,0,1,A,M Atkinson,11,11,2,4,5,8,9,14,1,3,0,0,1.83,4.01,4.29,1.9,3.8,3.8,1.65,2.38,2019-20,Southampton,West Ham United
+2019-12-15,Man United,Everton,1,1,D,0,1,A,M Oliver,24,8,8,3,6,5,10,12,1,2,0,0,1.69,4.01,5.32,1.8,3.7,4.5,1.78,2.15,2019-20,Manchester United,Everton
+2019-12-15,Wolves,Tottenham,1,2,A,0,1,A,S Attwell,18,9,5,5,11,2,14,10,4,4,0,0,2.88,3.65,2.47,3.25,3.4,2.25,1.83,2.09,2019-20,Wolverhampton Wanderers,Tottenham Hotspur
+2019-12-15,Arsenal,Man City,0,3,A,0,3,A,P Tierney,6,14,1,7,3,3,9,24,1,4,0,0,7.29,5.83,1.38,6.0,5.25,1.44,1.31,3.76,2019-20,Arsenal,Manchester City
+2019-12-16,Crystal Palace,Brighton,1,1,D,0,0,D,C Pawson,11,15,4,10,3,7,7,12,1,1,0,0,2.86,3.27,2.7,2.55,3.25,2.87,2.15,1.78,2019-20,Crystal Palace,Brighton & Hove Albion
+2019-12-21,Everton,Arsenal,0,0,D,0,0,D,K Friend,9,6,0,2,5,4,10,11,2,3,0,0,2.14,3.84,3.34,2.3,3.8,2.87,1.56,2.6,2019-20,Everton,Arsenal
+2019-12-21,Aston Villa,Southampton,1,3,A,0,2,A,C Pawson,19,17,6,8,7,5,16,15,2,1,0,0,2.53,3.75,2.71,2.4,3.6,2.8,1.63,2.43,2019-20,Aston Villa,Southampton
+2019-12-21,Bournemouth,Burnley,0,1,A,0,0,D,M Atkinson,3,2,0,1,4,5,13,21,2,4,0,0,2.37,3.35,3.22,2.4,3.4,2.9,2.07,1.85,2019-20,AFC Bournemouth,Burnley
+2019-12-21,Brighton,Sheffield United,0,1,A,0,1,A,R Jones,9,7,2,2,4,3,6,11,1,3,0,0,2.22,3.3,3.61,2.2,3.25,3.5,2.08,1.84,2019-20,Brighton & Hove Albion,Sheffield United
+2019-12-21,Newcastle,Crystal Palace,1,0,H,0,0,D,S Hooper,8,16,3,4,4,5,12,11,2,0,0,0,2.45,3.14,3.29,2.37,3.1,3.25,2.5,1.6,2019-20,Newcastle United,Crystal Palace
+2019-12-21,Norwich,Wolves,1,2,A,1,0,H,P Bankes,13,14,7,4,3,11,7,14,2,4,0,0,4.07,3.86,1.91,3.75,3.8,1.9,1.86,2.05,2019-20,Norwich City,Wolverhampton Wanderers
+2019-12-21,Man City,Leicester,3,1,H,2,1,H,M Dean,23,5,12,2,6,1,14,9,2,2,0,0,1.37,5.85,7.73,1.36,5.25,7.5,1.37,3.34,2019-20,Manchester City,Leicester City
+2019-12-22,Watford,Man United,2,0,H,0,0,D,L Mason,11,17,3,8,3,5,16,11,3,1,0,0,4.7,3.83,1.81,4.33,4.0,1.75,1.87,2.05,2019-20,Watford,Manchester United
+2019-12-22,Tottenham,Chelsea,0,2,A,0,2,A,A Taylor,5,13,1,3,3,5,9,11,4,3,1,0,2.38,3.58,3.05,2.37,3.75,2.75,1.72,2.24,2019-20,Tottenham Hotspur,Chelsea
+2019-12-26,Tottenham,Brighton,2,1,H,0,1,A,G Scott,11,11,5,5,9,2,10,9,4,2,0,0,1.53,4.48,6.6,1.53,4.33,6.0,1.65,2.38,2019-20,Tottenham Hotspur,Brighton & Hove Albion
+2019-12-26,Aston Villa,Norwich,1,0,H,0,0,D,C Kavanagh,11,16,2,6,5,8,15,12,2,3,0,0,2.19,3.73,3.27,2.1,3.75,3.3,1.55,2.62,2019-20,Aston Villa,Norwich City
+2019-12-26,Bournemouth,Arsenal,1,1,D,1,0,H,S Attwell,12,17,4,2,8,3,5,13,4,4,0,0,3.81,4.14,1.91,3.5,3.9,1.95,1.61,2.48,2019-20,AFC Bournemouth,Arsenal
+2019-12-26,Chelsea,Southampton,0,2,A,0,1,A,J Moss,10,5,3,3,8,1,10,9,3,2,0,0,1.4,5.08,8.43,1.33,5.25,9.0,1.61,2.47,2019-20,Chelsea,Southampton
+2019-12-26,Crystal Palace,West Ham,2,1,H,0,0,D,A Marriner,13,10,4,2,7,6,5,10,0,2,0,0,2.31,3.47,3.24,2.3,3.4,3.1,2.06,1.85,2019-20,Crystal Palace,West Ham United
+2019-12-26,Everton,Burnley,1,0,H,0,0,D,A Taylor,21,6,5,0,10,2,15,14,0,0,0,0,1.75,3.65,5.36,1.7,3.75,5.0,2.12,1.8,2019-20,Everton,Burnley
+2019-12-26,Sheffield United,Watford,1,1,D,1,1,D,D Coote,16,5,4,2,9,1,11,8,1,3,0,0,1.81,3.67,4.86,1.83,3.6,4.33,2.19,1.76,2019-20,Sheffield United,Watford
+2019-12-26,Man United,Newcastle,4,1,H,3,1,H,K Friend,22,7,10,2,5,0,10,7,2,2,0,0,1.36,5.42,9.37,1.33,5.25,9.0,1.72,2.25,2019-20,Manchester United,Newcastle United
+2019-12-26,Leicester,Liverpool,0,4,A,0,1,A,M Oliver,3,15,0,6,2,8,5,7,1,1,0,0,3.61,4.17,1.97,3.4,3.75,2.05,1.56,2.58,2019-20,Leicester City,Liverpool
+2019-12-27,Wolves,Man City,3,2,H,0,1,A,M Atkinson,20,7,8,3,3,1,7,13,0,1,0,1,6.67,5.38,1.44,8.5,5.0,1.36,1.55,2.62,2019-20,Wolverhampton Wanderers,Manchester City
+2019-12-28,Brighton,Bournemouth,2,0,H,1,0,H,P Tierney,16,10,6,2,9,2,8,11,0,2,0,0,1.81,3.86,4.66,1.75,3.9,4.33,1.9,2.02,2019-20,Brighton & Hove Albion,AFC Bournemouth
+2019-12-28,Newcastle,Everton,1,2,A,0,1,A,L Mason,20,22,5,9,5,8,13,13,2,2,0,0,3.28,3.36,2.34,3.6,3.4,2.05,2.14,1.79,2019-20,Newcastle United,Everton
+2019-12-28,Southampton,Crystal Palace,1,1,D,0,0,D,A Madley,14,5,5,2,12,4,13,7,1,2,0,0,2.0,3.52,4.1,1.95,3.6,3.8,2.19,1.76,2019-20,Southampton,Crystal Palace
+2019-12-28,Watford,Aston Villa,3,0,H,1,0,H,S Hooper,20,11,6,2,6,3,16,9,3,1,1,0,1.79,4.04,4.44,1.95,3.8,3.6,1.64,2.41,2019-20,Watford,Aston Villa
+2019-12-28,Norwich,Tottenham,2,2,D,1,0,H,K Friend,5,15,2,7,4,6,12,10,3,3,0,0,4.7,4.52,1.68,5.0,4.0,1.66,1.56,2.6,2019-20,Norwich City,Tottenham Hotspur
+2019-12-28,West Ham,Leicester,1,2,A,1,1,D,D Coote,14,13,4,8,5,5,16,4,4,1,0,0,2.57,3.68,2.7,4.0,3.9,1.83,1.81,2.12,2019-20,West Ham United,Leicester City
+2019-12-28,Burnley,Man United,0,2,A,0,1,A,M Dean,8,14,1,5,5,4,17,10,4,3,0,0,4.28,3.69,1.91,4.33,3.75,1.8,1.98,1.94,2019-20,Burnley,Manchester United
+2019-12-29,Arsenal,Chelsea,1,2,A,1,0,H,C Pawson,7,13,2,4,2,3,13,19,5,4,0,0,3.06,3.6,2.37,2.87,3.75,2.3,1.71,2.27,2019-20,Arsenal,Chelsea
+2019-12-29,Liverpool,Wolves,1,0,H,1,0,H,A Taylor,10,10,3,2,5,6,7,3,1,0,0,0,1.26,6.28,12.29,1.25,5.75,12.0,1.55,2.63,2019-20,Liverpool,Wolverhampton Wanderers
+2019-12-29,Man City,Sheffield United,2,0,H,0,0,D,C Kavanagh,16,8,4,0,8,5,5,6,1,1,0,0,1.24,6.85,13.14,1.16,7.5,16.0,1.41,3.15,2019-20,Manchester City,Sheffield United
+2020-01-01,Brighton,Chelsea,1,1,D,0,1,A,S Attwell,16,16,5,5,5,3,8,15,2,3,0,0,3.94,4.03,1.89,3.6,3.6,1.95,1.74,2.21,2019-20,Brighton & Hove Albion,Chelsea
+2020-01-01,Burnley,Aston Villa,1,2,A,0,2,A,M Oliver,20,11,1,6,8,4,12,10,1,1,0,0,2.03,3.34,4.22,1.75,3.8,4.33,2.12,1.81,2019-20,Burnley,Aston Villa
+2020-01-01,Newcastle,Leicester,0,3,A,0,2,A,M Atkinson,5,17,2,10,4,5,8,12,1,1,0,0,4.13,3.88,1.89,5.0,3.8,1.66,1.9,2.01,2019-20,Newcastle United,Leicester City
+2020-01-01,Southampton,Tottenham,1,0,H,1,0,H,M Dean,12,11,3,5,6,9,21,8,3,4,0,0,3.51,3.91,2.05,3.3,3.5,2.1,1.7,2.28,2019-20,Southampton,Tottenham Hotspur
+2020-01-01,Watford,Wolves,2,1,H,1,0,H,A Madley,9,16,3,4,4,7,12,6,3,1,1,0,3.17,3.27,2.45,3.0,3.4,2.3,2.31,1.68,2019-20,Watford,Wolverhampton Wanderers
+2020-01-01,Man City,Everton,2,1,H,0,0,D,A Marriner,16,7,7,2,3,6,11,11,0,4,0,0,1.33,5.78,9.31,1.25,6.5,10.0,1.47,2.89,2019-20,Manchester City,Everton
+2020-01-01,Norwich,Crystal Palace,1,1,D,1,0,H,J Moss,15,12,4,3,2,5,12,9,5,0,0,0,2.37,3.45,3.14,2.5,3.4,2.75,2.1,1.82,2019-20,Norwich City,Crystal Palace
+2020-01-01,West Ham,Bournemouth,4,0,H,3,0,H,G Scott,14,3,7,2,9,2,3,12,1,2,0,0,1.97,3.61,4.12,1.9,3.75,3.8,1.92,2.0,2019-20,West Ham United,AFC Bournemouth
+2020-01-01,Arsenal,Man United,2,0,H,2,0,H,C Kavanagh,10,10,4,4,1,4,11,15,2,0,0,0,2.65,3.59,2.67,2.55,3.6,2.62,1.66,2.35,2019-20,Arsenal,Manchester United
+2020-01-02,Liverpool,Sheffield United,2,0,H,1,0,H,P Tierney,19,3,7,2,8,4,5,8,0,0,0,0,1.3,5.54,12.41,1.2,6.5,13.0,1.74,2.22,2019-20,Liverpool,Sheffield United
+2020-01-10,Sheffield United,West Ham,1,0,H,0,0,D,M Oliver,13,7,3,2,7,3,11,6,1,0,0,0,1.88,3.57,4.57,1.95,3.4,4.0,2.2,1.75,2019-20,Sheffield United,West Ham United
+2020-01-11,Crystal Palace,Arsenal,1,1,D,0,1,A,P Tierney,6,7,3,4,1,4,14,22,2,3,0,1,4.78,3.84,1.78,4.1,3.9,1.8,1.93,1.99,2019-20,Crystal Palace,Arsenal
+2020-01-11,Chelsea,Burnley,3,0,H,2,0,H,K Friend,18,7,8,2,10,3,7,4,0,3,0,0,1.36,5.12,9.69,1.28,5.5,11.0,1.73,2.23,2019-20,Chelsea,Burnley
+2020-01-11,Everton,Brighton,1,0,H,1,0,H,D Coote,14,9,6,2,4,3,7,7,2,1,0,0,1.93,3.8,4.02,1.85,3.8,4.0,1.88,2.03,2019-20,Everton,Brighton & Hove Albion
+2020-01-11,Leicester,Southampton,1,2,A,1,1,D,L Mason,5,16,5,10,2,4,9,17,0,3,0,0,1.73,3.9,5.12,1.6,4.0,5.5,1.72,2.25,2019-20,Leicester City,Southampton
+2020-01-11,Man United,Norwich,4,0,H,1,0,H,A Taylor,13,8,6,3,4,2,18,7,0,0,0,0,1.32,5.66,10.11,1.33,5.25,8.5,1.64,2.4,2019-20,Manchester United,Norwich City
+2020-01-11,Wolves,Newcastle,1,1,D,1,1,D,P Bankes,9,5,4,1,5,2,13,12,0,3,0,0,1.45,4.6,7.92,1.44,4.5,7.5,1.94,1.98,2019-20,Wolverhampton Wanderers,Newcastle United
+2020-01-11,Tottenham,Liverpool,0,1,A,0,1,A,M Atkinson,14,13,4,7,4,3,4,8,0,2,0,0,4.9,4.05,1.72,4.5,4.33,1.66,1.69,2.3,2019-20,Tottenham Hotspur,Liverpool
+2020-01-12,Bournemouth,Watford,0,3,A,0,1,A,M Dean,10,18,1,6,5,5,3,13,1,1,0,0,2.58,3.45,2.83,2.6,3.3,2.7,2.09,1.83,2019-20,AFC Bournemouth,Watford
+2020-01-12,Aston Villa,Man City,1,6,A,0,4,A,J Moss,7,22,1,12,2,4,5,12,2,1,0,0,15.31,9.4,1.16,13.0,8.5,1.16,1.29,3.82,2019-20,Aston Villa,Manchester City
+2020-01-18,Watford,Tottenham,0,0,D,0,0,D,M Oliver,15,17,2,5,3,3,13,13,2,3,0,0,3.11,3.55,2.34,3.25,3.5,2.2,1.95,1.97,2019-20,Watford,Tottenham Hotspur
+2020-01-18,Arsenal,Sheffield United,1,1,D,1,0,H,M Dean,11,12,4,4,4,5,9,13,1,2,0,0,2.09,3.34,3.96,1.83,3.6,4.33,2.12,1.81,2019-20,Arsenal,Sheffield United
+2020-01-18,Brighton,Aston Villa,1,1,D,1,0,H,A Madley,10,8,2,3,3,4,11,13,3,3,0,0,1.68,4.26,4.96,1.66,4.0,5.0,1.66,2.35,2019-20,Brighton & Hove Albion,Aston Villa
+2020-01-18,Man City,Crystal Palace,2,2,D,0,1,A,S Scott,25,5,6,3,14,2,9,7,1,2,0,0,1.09,12.35,29.32,1.1,11.0,19.0,1.28,3.92,2019-20,Manchester City,Crystal Palace
+2020-01-18,Norwich,Bournemouth,1,0,H,1,0,H,P Tierney,16,6,5,3,4,5,10,10,2,2,1,1,2.28,3.52,3.26,2.2,3.5,3.25,1.87,2.05,2019-20,Norwich City,AFC Bournemouth
+2020-01-18,Southampton,Wolves,2,3,A,2,0,H,D England,11,8,5,4,1,3,13,12,2,1,0,0,2.63,3.11,3.04,2.4,3.4,3.0,2.4,1.64,2019-20,Southampton,Wolverhampton Wanderers
+2020-01-18,West Ham,Everton,1,1,D,1,1,D,A Marriner,12,11,6,3,7,6,11,13,1,0,0,0,2.97,3.45,2.48,2.9,3.5,2.37,1.96,1.95,2019-20,West Ham United,Everton
+2020-01-18,Newcastle,Chelsea,1,0,H,0,0,D,C Kavanagh,7,19,2,4,1,10,9,14,1,1,0,0,5.51,4.42,1.61,6.0,4.5,1.5,1.81,2.12,2019-20,Newcastle United,Chelsea
+2020-01-19,Burnley,Leicester,2,1,H,0,1,A,A Taylor,8,18,5,8,4,5,14,8,1,0,0,0,4.22,3.75,1.91,4.33,3.75,1.83,1.97,1.95,2019-20,Burnley,Leicester City
+2020-01-19,Liverpool,Man United,2,0,H,1,0,H,C Pawson,16,9,5,4,11,5,7,10,1,3,0,0,1.46,4.64,7.58,1.36,5.25,8.0,1.78,2.16,2019-20,Liverpool,Manchester United
+2020-01-21,Aston Villa,Watford,2,1,H,0,1,A,M Atkinson,16,8,5,2,6,3,11,18,2,2,0,0,3.12,3.43,2.39,2.8,3.5,2.45,1.96,1.96,2019-20,Aston Villa,Watford
+2020-01-21,Bournemouth,Brighton,3,1,H,2,0,H,K Friend,11,21,3,8,5,8,9,12,1,1,0,0,2.87,3.28,2.66,2.87,3.4,2.45,2.19,1.76,2019-20,AFC Bournemouth,Brighton & Hove Albion
+2020-01-21,Crystal Palace,Southampton,0,2,A,0,1,A,A Marriner,6,15,0,6,0,8,12,13,1,2,0,0,2.82,3.24,2.72,2.7,3.25,2.7,2.46,1.61,2019-20,Crystal Palace,Southampton
+2020-01-21,Everton,Newcastle,2,2,D,1,0,H,S Hooper,17,8,8,2,6,4,13,10,1,1,0,0,1.49,4.45,7.4,1.55,4.1,6.0,2.06,1.86,2019-20,Everton,Newcastle United
+2020-01-21,Sheffield United,Man City,0,1,A,0,0,D,L Mason,4,18,1,5,5,13,13,13,4,3,0,0,8.26,4.69,1.43,7.0,5.0,1.4,1.77,2.17,2019-20,Sheffield United,Manchester City
+2020-01-21,Chelsea,Arsenal,2,2,D,1,0,H,S Attwell,19,2,8,2,17,5,11,6,2,1,0,1,1.74,3.93,4.96,1.72,3.9,4.5,1.85,2.07,2019-20,Chelsea,Arsenal
+2020-01-22,Leicester,West Ham,4,1,H,2,0,H,D Coote,19,6,8,2,7,8,10,19,1,1,0,0,1.49,4.72,6.75,1.53,4.33,6.0,1.62,2.45,2019-20,Leicester City,West Ham United
+2020-01-22,Tottenham,Norwich,2,1,H,1,0,H,C Kavanagh,14,12,3,2,7,3,12,7,0,1,0,0,1.39,5.05,8.8,1.4,5.0,7.5,1.62,2.44,2019-20,Tottenham Hotspur,Norwich City
+2020-01-22,Man United,Burnley,0,2,A,0,1,A,J Moss,24,5,7,2,5,2,11,7,0,2,0,0,1.47,4.42,8.14,1.36,4.75,9.0,1.93,1.98,2019-20,Manchester United,Burnley
+2020-01-23,Wolves,Liverpool,1,2,A,0,1,A,M Oliver,10,13,3,6,2,4,6,11,0,1,0,0,5.02,4.09,1.7,5.75,3.8,1.61,1.94,1.97,2019-20,Wolverhampton Wanderers,Liverpool
+2020-01-29,West Ham,Liverpool,0,2,A,0,1,A,J Moss,7,13,4,5,3,7,6,6,2,0,0,0,8.76,5.25,1.38,8.5,5.5,1.33,1.6,2.49,2019-20,West Ham United,Liverpool
+2020-02-01,Leicester,Chelsea,2,2,D,0,0,D,L Mason,14,7,4,3,4,6,16,14,2,2,0,0,2.63,3.49,2.74,2.5,3.6,2.7,1.85,2.06,2019-20,Leicester City,Chelsea
+2020-02-01,Bournemouth,Aston Villa,2,1,H,2,0,H,A Taylor,16,18,6,5,1,8,10,15,1,3,1,0,2.15,3.4,3.7,2.1,3.6,3.3,2.09,1.83,2019-20,AFC Bournemouth,Aston Villa
+2020-02-01,Crystal Palace,Sheffield United,0,1,A,0,0,D,A Madley,13,10,3,3,9,5,9,15,3,2,0,0,3.25,3.03,2.55,3.1,3.1,2.5,2.85,1.48,2019-20,Crystal Palace,Sheffield United
+2020-02-01,Liverpool,Southampton,4,0,H,0,0,D,K Friend,16,17,9,4,6,11,9,15,0,2,0,0,1.31,5.65,10.51,1.25,6.0,12.0,1.57,2.55,2019-20,Liverpool,Southampton
+2020-02-01,Newcastle,Norwich,0,0,D,0,0,D,M Atkinson,15,19,5,4,8,12,10,15,2,1,0,0,2.25,3.38,3.44,2.2,3.4,3.3,2.15,1.78,2019-20,Newcastle United,Norwich City
+2020-02-01,Watford,Everton,2,3,A,2,2,D,C Pawson,11,12,2,5,4,4,17,14,2,2,0,1,3.1,3.39,2.42,2.75,3.3,2.62,2.1,1.82,2019-20,Watford,Everton
+2020-02-01,West Ham,Brighton,3,3,D,2,0,H,M Oliver,12,19,6,6,4,6,8,9,1,1,0,0,2.52,3.42,2.93,2.6,3.3,2.75,1.94,1.97,2019-20,West Ham United,Brighton & Hove Albion
+2020-02-01,Man United,Wolves,0,0,D,0,0,D,P Tierney,15,14,5,3,4,6,14,15,3,2,0,0,2.12,3.5,3.68,2.25,3.25,3.4,2.26,1.71,2019-20,Manchester United,Wolverhampton Wanderers
+2020-02-02,Burnley,Arsenal,0,0,D,0,0,D,C Kavanagh,15,13,2,2,5,7,8,11,1,3,0,0,4.03,3.71,1.96,3.6,3.6,2.0,1.82,2.11,2019-20,Burnley,Arsenal
+2020-02-02,Tottenham,Man City,2,0,H,0,0,D,M Dean,3,18,3,5,2,6,8,14,2,3,0,1,6.08,4.77,1.52,5.5,4.6,1.53,1.57,2.56,2019-20,Tottenham Hotspur,Manchester City
+2020-02-08,Everton,Crystal Palace,3,1,H,1,0,H,D Coote,14,10,8,2,4,6,11,12,0,1,0,0,1.67,3.77,6.05,1.61,3.8,6.0,2.27,1.71,2019-20,Everton,Crystal Palace
+2020-02-08,Brighton,Watford,1,1,D,0,1,A,K Friend,10,5,2,2,3,2,9,12,2,2,0,0,2.36,3.3,3.28,2.1,3.4,3.6,1.99,1.93,2019-20,Brighton & Hove Albion,Watford
+2020-02-09,Sheffield United,Bournemouth,2,1,H,1,1,D,J Moss,16,10,6,2,8,4,10,8,2,2,0,0,1.81,3.42,5.46,1.66,3.6,5.75,2.49,1.6,2019-20,Sheffield United,AFC Bournemouth
+2020-02-14,Wolves,Leicester,0,0,D,0,0,D,M Dean,15,9,3,3,7,0,13,10,2,2,0,1,2.69,3.17,2.91,2.5,3.3,2.87,2.15,1.79,2019-20,Wolverhampton Wanderers,Leicester City
+2020-02-15,Southampton,Burnley,1,2,A,1,1,D,S Hooper,10,9,2,6,4,3,8,11,2,2,0,0,1.65,4.12,5.49,1.75,3.8,4.75,1.79,2.14,2019-20,Southampton,Burnley
+2020-02-15,Norwich,Liverpool,0,1,A,0,0,D,S Attwell,5,17,1,6,2,7,5,11,1,2,0,0,9.19,5.38,1.36,11.0,6.25,1.25,1.49,2.8,2019-20,Norwich City,Liverpool
+2020-02-16,Aston Villa,Tottenham,2,3,A,1,2,A,M Atkinson,18,23,4,10,12,7,12,10,2,0,0,0,3.95,3.74,1.97,4.0,3.8,1.85,1.79,2.14,2019-20,Aston Villa,Tottenham Hotspur
+2020-02-16,Arsenal,Newcastle,4,0,H,0,0,D,L Mason,15,10,7,2,5,6,15,9,2,0,0,0,1.46,4.55,7.93,1.4,4.75,8.0,1.72,2.25,2019-20,Arsenal,Newcastle United
+2020-02-17,Chelsea,Man United,0,2,A,0,1,A,A Taylor,17,9,1,3,9,8,11,11,4,3,0,0,2.02,3.47,4.08,1.85,3.5,4.5,2.13,1.79,2019-20,Chelsea,Manchester United
+2020-02-19,Man City,West Ham,2,0,H,1,0,H,K Friend,20,3,7,0,6,1,5,7,0,1,0,0,1.13,10.24,21.36,1.12,9.5,17.0,1.27,4.11,2019-20,Manchester City,West Ham United
+2020-02-22,Chelsea,Tottenham,2,1,H,1,0,H,M Oliver,17,5,7,3,3,5,14,14,1,2,0,0,1.88,3.55,4.6,1.72,4.0,4.5,2.15,1.79,2019-20,Chelsea,Tottenham Hotspur
+2020-02-22,Burnley,Bournemouth,3,0,H,0,0,D,M Dean,16,12,10,4,7,3,9,9,4,3,0,0,2.22,3.38,3.53,2.1,3.3,3.7,2.28,1.7,2019-20,Burnley,AFC Bournemouth
+2020-02-22,Crystal Palace,Newcastle,1,0,H,1,0,H,P Bankes,18,8,9,2,7,5,15,11,2,6,0,1,2.25,3.23,3.62,1.95,3.4,4.2,2.27,1.71,2019-20,Crystal Palace,Newcastle United
+2020-02-22,Sheffield United,Brighton,1,1,D,1,1,D,G Scott,14,8,3,2,12,2,3,6,0,2,0,0,1.97,3.44,4.38,1.95,3.4,4.2,2.41,1.64,2019-20,Sheffield United,Brighton & Hove Albion
+2020-02-22,Southampton,Aston Villa,2,0,H,1,0,H,C Pawson,28,4,9,1,9,6,13,17,1,4,0,0,1.77,3.98,4.67,1.61,4.33,5.0,1.66,2.35,2019-20,Southampton,Aston Villa
+2020-02-22,Leicester,Man City,0,1,A,0,0,D,P Tierney,10,18,3,7,3,7,14,10,0,0,0,0,5.52,4.55,1.58,4.5,4.2,1.7,1.53,2.68,2019-20,Leicester City,Manchester City
+2020-02-23,Man United,Watford,3,0,H,1,0,H,M Atkinson,21,7,9,2,3,5,6,15,0,1,0,0,1.61,3.98,6.31,1.6,3.9,6.0,2.03,1.89,2019-20,Manchester United,Watford
+2020-02-23,Wolves,Norwich,3,0,H,2,0,H,C Kavanagh,19,6,6,4,4,1,11,6,2,3,0,0,1.51,4.37,7.27,1.5,4.2,7.0,2.0,1.92,2019-20,Wolverhampton Wanderers,Norwich City
+2020-02-23,Arsenal,Everton,3,2,H,2,2,D,S Attwell,9,17,4,5,6,3,12,12,0,4,0,0,2.0,3.67,3.91,2.0,3.6,3.7,1.8,2.13,2019-20,Arsenal,Everton
+2020-02-24,Liverpool,West Ham,3,2,H,1,1,D,J Moss,25,7,7,4,16,8,4,10,0,3,0,0,1.15,9.09,19.01,1.16,8.0,15.0,1.36,3.32,2019-20,Liverpool,West Ham United
+2020-02-28,Norwich,Leicester,1,0,H,0,0,D,C Pawson,11,19,6,4,6,7,13,16,1,2,0,0,4.18,3.89,1.88,4.33,4.1,1.72,1.68,2.31,2019-20,Norwich City,Leicester City
+2020-02-29,Brighton,Crystal Palace,0,1,A,0,0,D,M Atkinson,24,12,8,3,8,7,8,9,1,1,0,0,2.26,3.16,3.68,2.05,3.25,3.9,2.51,1.59,2019-20,Brighton & Hove Albion,Crystal Palace
+2020-02-29,Bournemouth,Chelsea,2,2,D,0,1,A,A Marriner,9,23,5,6,4,14,8,5,2,2,0,0,4.09,3.79,1.93,4.75,3.8,1.72,1.82,2.1,2019-20,AFC Bournemouth,Chelsea
+2020-02-29,Newcastle,Burnley,0,0,D,0,0,D,A Madley,21,8,4,1,11,7,11,9,4,3,0,0,2.75,3.26,2.78,2.62,3.1,2.9,2.15,1.78,2019-20,Newcastle United,Burnley
+2020-02-29,West Ham,Southampton,3,1,H,2,1,H,A Taylor,14,10,7,2,4,9,8,11,1,1,0,0,2.58,3.52,2.79,2.65,3.6,2.5,1.81,2.11,2019-20,West Ham United,Southampton
+2020-02-29,Watford,Liverpool,3,0,H,0,0,D,M Oliver,14,7,5,1,3,5,4,8,0,0,0,0,6.75,4.76,1.49,8.0,4.75,1.4,1.68,2.32,2019-20,Watford,Liverpool
+2020-03-01,Everton,Man United,1,1,D,1,1,D,C Kavanagh,16,14,5,5,13,8,11,11,3,4,0,0,2.89,3.3,2.62,2.5,3.25,2.9,2.04,1.87,2019-20,Everton,Manchester United
+2020-03-01,Tottenham,Wolves,2,3,A,2,1,H,S Attwell,13,14,5,4,4,5,12,14,3,2,0,0,2.88,3.1,2.77,2.45,3.2,3.0,2.44,1.62,2019-20,Tottenham Hotspur,Wolverhampton Wanderers
+2020-03-07,Liverpool,Bournemouth,2,1,H,2,1,H,P Tierney,14,6,6,4,9,4,10,12,0,1,0,0,1.22,7.06,13.2,1.22,6.5,13.0,1.4,3.13,2019-20,Liverpool,AFC Bournemouth
+2020-03-07,Arsenal,West Ham,1,0,H,0,0,D,M Atkinson,9,14,2,6,6,7,11,9,1,2,0,0,1.68,4.15,5.1,1.57,4.4,5.5,1.58,2.54,2019-20,Arsenal,West Ham United
+2020-03-07,Crystal Palace,Watford,1,0,H,1,0,H,A Taylor,10,10,3,4,8,8,12,19,4,4,0,0,2.8,3.05,2.89,2.55,3.2,2.9,2.41,1.64,2019-20,Crystal Palace,Watford
+2020-03-07,Sheffield United,Norwich,1,0,H,1,0,H,S Hooper,10,12,4,5,10,5,12,8,0,0,0,0,1.66,4.07,5.48,1.65,3.75,5.75,2.13,1.8,2019-20,Sheffield United,Norwich City
+2020-03-07,Southampton,Newcastle,0,1,A,0,0,D,G Scott,6,14,3,7,5,8,14,15,0,3,1,0,1.75,3.95,4.89,1.61,4.1,5.25,2.09,1.83,2019-20,Southampton,Newcastle United
+2020-03-07,Wolves,Brighton,0,0,D,0,0,D,A Marriner,11,7,1,1,2,0,4,7,1,3,0,0,1.75,3.67,5.31,1.61,3.9,5.75,2.26,1.71,2019-20,Wolverhampton Wanderers,Brighton & Hove Albion
+2020-03-07,Burnley,Tottenham,1,1,D,1,0,H,J Moss,21,13,8,2,3,5,16,11,5,4,0,0,2.73,3.35,2.74,2.7,3.3,2.62,2.19,1.75,2019-20,Burnley,Tottenham Hotspur
+2020-03-08,Chelsea,Everton,4,0,H,2,0,H,K Friend,17,3,11,1,6,1,8,10,1,2,0,0,1.88,3.86,4.19,1.8,3.9,4.2,1.76,2.18,2019-20,Chelsea,Everton
+2020-03-08,Man United,Man City,2,0,H,1,0,H,M Dean,12,7,6,2,2,11,11,9,2,4,0,0,4.36,3.93,1.83,5.0,4.33,1.6,1.89,2.02,2019-20,Manchester United,Manchester City
+2020-03-09,Leicester,Aston Villa,4,0,H,1,0,H,M Oliver,15,4,7,1,9,0,15,12,2,1,0,0,1.52,4.6,6.34,1.36,5.25,8.0,1.64,2.4,2019-20,Leicester City,Aston Villa
+2020-06-17,Aston Villa,Sheffield United,0,0,D,0,0,D,M Oliver,14,5,6,1,12,4,11,14,1,1,0,0,3.33,3.38,2.35,3.2,3.4,2.25,2.26,1.71,2019-20,Aston Villa,Sheffield United
+2020-06-17,Man City,Arsenal,3,0,H,1,0,H,A Taylor,20,3,12,0,5,2,9,7,1,1,0,1,1.29,6.6,9.96,1.36,5.25,7.5,1.48,2.87,2019-20,Manchester City,Arsenal
+2020-06-19,Norwich,Southampton,0,3,A,0,0,D,K Friend,9,22,1,9,9,7,9,15,1,1,0,0,2.96,3.5,2.51,2.8,3.5,2.45,1.95,1.96,2019-20,Norwich City,Southampton
+2020-06-19,Tottenham,Man United,1,1,D,1,0,H,J Moss,10,12,3,6,7,6,17,18,0,1,0,0,3.39,3.52,2.26,3.0,3.4,2.37,1.97,1.94,2019-20,Tottenham Hotspur,Manchester United
+2020-06-20,Watford,Leicester,1,1,D,0,0,D,C Pawson,8,15,4,2,2,7,15,12,0,1,0,0,3.78,3.44,2.14,3.6,3.5,2.05,2.21,1.76,2019-20,Watford,Leicester City
+2020-06-20,Brighton,Arsenal,2,1,H,0,0,D,M Atkinson,9,13,5,6,10,7,13,8,2,1,0,0,3.29,3.45,2.33,3.1,3.25,2.37,2.05,1.87,2019-20,Brighton & Hove Albion,Arsenal
+2020-06-20,West Ham,Wolves,0,2,A,0,0,D,A Taylor,7,10,2,6,5,7,8,7,1,1,0,0,4.2,3.58,1.98,3.6,3.4,2.1,2.54,1.59,2019-20,West Ham United,Wolverhampton Wanderers
+2020-06-20,Bournemouth,Crystal Palace,0,2,A,0,2,A,S Attwell,12,7,1,2,11,4,13,15,3,2,0,0,2.85,3.13,2.85,2.45,3.2,3.0,2.39,1.65,2019-20,AFC Bournemouth,Crystal Palace
+2020-06-21,Newcastle,Sheffield United,3,0,H,0,0,D,D Coote,12,7,8,1,2,4,9,10,2,0,0,1,3.31,3.13,2.5,3.3,3.1,2.37,2.91,1.47,2019-20,Newcastle United,Sheffield United
+2020-06-21,Aston Villa,Chelsea,1,2,A,1,0,H,P Tierney,8,19,4,5,2,10,9,17,2,1,0,0,7.25,4.61,1.49,6.0,4.5,1.5,1.78,2.18,2019-20,Aston Villa,Chelsea
+2020-06-21,Everton,Liverpool,0,0,D,0,0,D,M Dean,9,10,3,3,1,6,15,12,2,2,0,0,6.04,4.05,1.63,6.0,4.2,1.55,1.86,2.06,2019-20,Everton,Liverpool
+2020-06-22,Man City,Burnley,5,0,H,3,0,H,A Marriner,19,1,7,0,3,1,8,7,1,1,0,0,1.13,9.76,28.4,1.12,9.0,15.0,1.5,2.8,2019-20,Manchester City,Burnley
+2020-06-23,Leicester,Brighton,0,0,D,0,0,D,L Mason,11,10,2,2,6,7,10,13,2,2,0,0,1.65,3.99,6.02,1.6,4.0,5.75,2.05,1.88,2019-20,Leicester City,Brighton & Hove Albion
+2020-06-23,Tottenham,West Ham,2,0,H,0,0,D,C Pawson,15,10,4,2,9,4,12,7,2,2,0,0,1.56,4.19,6.86,1.66,4.0,5.0,1.86,2.06,2019-20,Tottenham Hotspur,West Ham United
+2020-06-24,Man United,Sheffield United,3,0,H,2,0,H,A Taylor,15,4,6,1,10,5,10,6,1,0,0,0,1.37,5.0,10.32,1.4,4.5,8.5,1.92,2.0,2019-20,Manchester United,Sheffield United
+2020-06-24,Newcastle,Aston Villa,1,1,D,0,0,D,C Kavanagh,13,14,3,2,6,9,15,13,2,2,0,0,2.4,3.45,3.17,2.3,3.3,3.2,1.96,1.95,2019-20,Newcastle United,Aston Villa
+2020-06-24,Norwich,Everton,0,1,A,0,0,D,A Madley,9,12,1,5,6,5,8,13,0,1,0,0,4.48,3.62,1.91,3.9,3.6,1.9,2.03,1.89,2019-20,Norwich City,Everton
+2020-06-24,Wolves,Bournemouth,1,0,H,0,0,D,M Oliver,10,4,2,0,6,4,11,11,3,3,0,0,1.59,3.83,7.43,1.55,4.0,6.0,2.35,1.68,2019-20,Wolverhampton Wanderers,AFC Bournemouth
+2020-06-24,Liverpool,Crystal Palace,4,0,H,2,0,H,M Atkinson,21,3,7,0,6,0,7,5,0,0,0,0,1.3,5.85,11.67,1.22,6.5,13.0,1.74,2.24,2019-20,Liverpool,Crystal Palace
+2020-06-25,Burnley,Watford,1,0,H,0,0,D,M Dean,9,10,5,4,1,7,13,15,1,0,0,0,3.72,3.33,2.2,3.0,3.25,2.45,2.55,1.58,2019-20,Burnley,Watford
+2020-06-25,Southampton,Arsenal,0,2,A,0,1,A,G Scott,12,10,3,5,4,6,10,14,0,2,1,0,2.7,3.65,2.65,2.6,3.5,2.62,1.8,2.14,2019-20,Southampton,Arsenal
+2020-06-25,Chelsea,Man City,2,1,H,1,0,H,S Attwell,15,11,10,2,5,7,13,3,1,1,0,1,4.29,3.96,1.85,4.0,4.0,1.8,1.84,2.09,2019-20,Chelsea,Manchester City
+2020-06-27,Aston Villa,Wolves,0,1,A,0,0,D,C Pawson,11,9,1,2,2,2,16,16,1,1,0,0,4.61,3.48,1.93,4.6,3.7,1.75,2.58,1.57,2019-20,Aston Villa,Wolverhampton Wanderers
+2020-06-28,Watford,Southampton,1,3,A,0,1,A,M Oliver,8,11,0,7,5,3,18,9,3,0,0,0,2.41,3.28,3.31,2.5,3.3,2.87,2.28,1.71,2019-20,Watford,Southampton
+2020-06-29,Crystal Palace,Burnley,0,1,A,0,0,D,S Hooper,17,8,4,4,9,1,12,13,1,1,0,0,2.06,3.18,4.5,2.25,3.2,3.4,2.83,1.5,2019-20,Crystal Palace,Burnley
+2020-06-30,Brighton,Man United,0,3,A,0,2,A,A Marriner,8,12,2,6,4,5,10,9,0,1,0,0,7.42,4.14,1.54,6.0,3.8,1.61,2.08,1.85,2019-20,Brighton & Hove Albion,Manchester United
+2020-07-01,Arsenal,Norwich,4,0,H,2,0,H,P Bankes,13,8,8,2,6,2,10,10,1,4,0,0,1.47,4.89,7.05,1.44,4.75,7.0,1.63,2.46,2019-20,Arsenal,Norwich City
+2020-07-01,Bournemouth,Newcastle,1,4,A,0,2,A,K Friend,12,12,1,7,6,3,11,10,2,0,0,0,2.2,3.22,3.88,2.4,3.1,3.2,2.47,1.62,2019-20,AFC Bournemouth,Newcastle United
+2020-07-01,Everton,Leicester,2,1,H,2,0,H,D Coote,7,15,2,3,3,5,13,10,1,1,0,0,2.64,3.25,2.99,2.5,3.3,2.9,2.28,1.71,2019-20,Everton,Leicester City
+2020-07-01,West Ham,Chelsea,3,2,H,1,1,D,M Atkinson,10,17,4,6,2,3,10,9,2,1,0,0,7.15,4.78,1.48,5.5,4.33,1.57,1.82,2.12,2019-20,West Ham United,Chelsea
+2020-07-02,Sheffield United,Tottenham,3,1,H,1,0,H,C Kavanagh,7,9,5,2,1,6,13,13,2,0,0,0,4.66,3.7,1.83,4.2,3.4,1.95,2.1,1.83,2019-20,Sheffield United,Tottenham Hotspur
+2020-07-02,Man City,Liverpool,4,0,H,3,0,H,A Taylor,14,11,6,3,3,3,8,7,2,2,0,0,2.05,3.79,3.59,2.05,3.9,3.3,1.72,2.24,2019-20,Manchester City,Liverpool
+2020-07-04,Norwich,Brighton,0,1,A,0,1,A,S Attwell,12,8,1,2,0,2,11,13,2,2,0,0,3.41,3.25,2.33,3.3,3.4,2.2,2.33,1.68,2019-20,Norwich City,Brighton & Hove Albion
+2020-07-04,Leicester,Crystal Palace,3,0,H,0,0,D,J Moss,15,7,4,1,3,7,18,8,2,1,0,0,1.66,3.86,5.85,1.66,3.6,5.75,2.19,1.76,2019-20,Leicester City,Crystal Palace
+2020-07-04,Man United,Bournemouth,5,2,H,3,1,H,M Dean,19,7,10,3,8,3,13,12,0,1,0,0,1.19,7.81,16.0,1.16,7.5,17.0,1.54,2.61,2019-20,Manchester United,AFC Bournemouth
+2020-07-04,Wolves,Arsenal,0,2,A,0,1,A,M Oliver,10,8,1,5,3,5,6,11,2,4,0,0,2.4,3.21,3.32,2.25,3.4,3.25,2.42,1.63,2019-20,Wolverhampton Wanderers,Arsenal
+2020-07-04,Chelsea,Watford,3,0,H,2,0,H,K Friend,21,7,9,3,5,3,9,12,0,2,0,0,1.37,5.16,9.16,1.4,4.75,8.0,1.71,2.26,2019-20,Chelsea,Watford
+2020-07-05,Burnley,Sheffield United,1,1,D,1,0,H,P Bankes,9,10,4,3,3,9,8,14,0,0,0,0,3.21,2.95,2.64,2.9,3.0,2.7,2.78,1.5,2019-20,Burnley,Sheffield United
+2020-07-05,Newcastle,West Ham,2,2,D,1,1,D,C Pawson,11,17,4,7,6,4,9,11,0,0,0,0,2.75,3.43,2.66,2.6,3.3,2.75,1.96,1.96,2019-20,Newcastle United,West Ham United
+2020-07-05,Liverpool,Aston Villa,2,0,H,0,0,D,P Tierney,6,9,4,3,7,5,18,8,1,1,0,0,1.18,8.0,15.87,1.33,5.5,8.5,1.42,3.05,2019-20,Liverpool,Aston Villa
+2020-07-05,Southampton,Man City,1,0,H,1,0,H,A Marriner,8,26,4,6,2,13,6,7,1,2,0,0,8.93,5.99,1.32,8.5,6.0,1.3,1.47,2.83,2019-20,Southampton,Manchester City
+2020-07-06,Tottenham,Everton,1,0,H,1,0,H,G Scott,12,11,2,3,5,6,14,18,3,2,0,0,2.01,3.64,3.92,2.1,3.5,3.4,1.93,1.99,2019-20,Tottenham Hotspur,Everton
+2020-07-07,Crystal Palace,Chelsea,2,3,A,1,2,A,D Coote,13,14,4,6,7,9,11,10,1,0,0,0,7.51,4.4,1.49,8.5,4.5,1.4,1.96,1.96,2019-20,Crystal Palace,Chelsea
+2020-07-07,Watford,Norwich,2,1,H,1,1,D,A Taylor,9,12,4,3,4,3,11,15,2,4,0,0,1.8,3.74,4.8,1.7,3.75,5.0,2.15,1.78,2019-20,Watford,Norwich City
+2020-07-07,Arsenal,Leicester,1,1,D,1,0,H,C Kavanagh,11,13,7,5,10,1,10,14,1,0,1,0,2.24,3.46,3.39,2.3,3.5,3.0,1.97,1.95,2019-20,Arsenal,Leicester City
+2020-07-08,Man City,Newcastle,5,0,H,2,0,H,A Madley,23,6,9,1,8,1,12,7,0,0,0,0,1.09,12.02,25.19,1.12,9.0,21.0,1.31,3.62,2019-20,Manchester City,Newcastle United
+2020-07-08,Sheffield United,Wolves,1,0,H,0,0,D,M Atkinson,7,6,3,1,6,1,5,6,2,0,0,0,4.27,3.11,2.11,3.8,3.2,2.1,2.78,1.5,2019-20,Sheffield United,Wolverhampton Wanderers
+2020-07-08,West Ham,Burnley,0,1,A,0,1,A,M Oliver,21,8,5,4,10,3,7,7,1,1,0,0,1.87,3.67,4.5,2.0,3.4,3.9,2.09,1.83,2019-20,West Ham United,Burnley
+2020-07-08,Brighton,Liverpool,1,3,A,1,2,A,C Pawson,12,19,2,8,6,10,7,15,1,4,0,0,5.95,4.07,1.62,6.0,4.33,1.53,1.98,1.94,2019-20,Brighton & Hove Albion,Liverpool
+2020-07-09,Bournemouth,Tottenham,0,0,D,0,0,D,P Tierney,9,9,2,0,8,12,11,14,3,2,0,0,4.8,3.81,1.79,5.25,3.8,1.66,1.86,2.05,2019-20,AFC Bournemouth,Tottenham Hotspur
+2020-07-09,Everton,Southampton,1,1,D,1,1,D,L Mason,11,17,4,4,3,5,13,14,3,3,0,0,2.1,3.44,3.81,2.05,3.5,3.6,2.04,1.88,2019-20,Everton,Southampton
+2020-07-09,Aston Villa,Man United,0,3,A,0,2,A,J Moss,9,14,1,6,3,5,7,13,2,3,0,0,9.29,5.84,1.33,9.0,5.25,1.33,1.57,2.56,2019-20,Aston Villa,Manchester United
+2020-07-11,Norwich,West Ham,0,4,A,0,2,A,K Friend,11,19,2,7,1,6,9,8,1,0,0,0,3.64,3.55,2.11,3.75,3.75,1.95,1.95,1.97,2019-20,Norwich City,West Ham United
+2020-07-11,Watford,Newcastle,2,1,H,0,1,A,C Pawson,17,8,5,4,2,4,23,15,1,4,0,0,1.92,3.57,4.41,1.8,3.6,4.5,2.13,1.79,2019-20,Watford,Newcastle United
+2020-07-11,Liverpool,Burnley,1,1,D,1,0,H,D Coote,23,6,9,2,12,6,7,4,1,2,0,0,1.23,6.82,13.07,1.22,6.5,12.0,1.56,2.57,2019-20,Liverpool,Burnley
+2020-07-11,Sheffield United,Chelsea,3,0,H,2,0,H,A Marriner,9,15,4,4,4,6,8,6,1,0,0,0,5.0,3.83,1.76,6.0,3.8,1.6,1.93,1.98,2019-20,Sheffield United,Chelsea
+2020-07-11,Brighton,Man City,0,5,A,0,2,A,G Scott,3,26,0,8,2,7,7,3,1,0,0,0,12.68,6.77,1.24,10.0,5.5,1.28,1.47,2.85,2019-20,Brighton & Hove Albion,Manchester City
+2020-07-12,Wolves,Everton,3,0,H,1,0,H,A Taylor,14,6,7,2,5,2,9,9,0,2,0,0,2.12,3.21,4.07,2.05,3.3,3.8,2.81,1.49,2019-20,Wolverhampton Wanderers,Everton
+2020-07-12,Aston Villa,Crystal Palace,2,0,H,1,0,H,M Atkinson,12,9,9,5,5,1,21,21,2,4,0,1,2.35,3.45,3.17,2.25,3.3,3.3,2.17,1.77,2019-20,Aston Villa,Crystal Palace
+2020-07-12,Tottenham,Arsenal,2,1,H,1,1,D,M Oliver,15,13,9,4,6,5,16,11,5,3,0,0,2.78,3.45,2.63,2.62,3.4,2.7,1.93,1.98,2019-20,Tottenham Hotspur,Arsenal
+2020-07-12,Bournemouth,Leicester,4,1,H,0,1,A,S Attwell,10,13,4,5,2,6,11,12,2,1,0,1,4.52,3.9,1.81,5.25,3.8,1.66,2.0,1.92,2019-20,AFC Bournemouth,Leicester City
+2020-07-13,Man United,Southampton,2,2,D,2,1,H,C Kavanagh,8,9,4,5,4,6,14,15,1,3,0,0,1.28,6.34,10.55,1.3,5.5,10.0,1.47,2.85,2019-20,Manchester United,Southampton
+2020-07-14,Chelsea,Norwich,1,0,H,1,0,H,J Moss,22,2,6,0,8,1,10,9,2,2,0,0,1.12,9.66,24.8,1.12,9.5,17.0,1.36,3.29,2019-20,Chelsea,Norwich City
+2020-07-15,Burnley,Wolves,1,1,D,0,0,D,M Dean,9,14,1,5,3,8,10,8,0,0,0,0,4.6,3.42,1.93,4.5,3.3,1.9,2.74,1.51,2019-20,Burnley,Wolverhampton Wanderers
+2020-07-15,Man City,Bournemouth,2,1,H,2,0,H,L Mason,8,15,4,3,3,5,10,10,1,1,0,0,1.17,8.49,14.53,1.14,8.5,17.0,1.32,3.58,2019-20,Manchester City,AFC Bournemouth
+2020-07-15,Newcastle,Tottenham,1,3,A,0,1,A,D Coote,22,8,6,5,5,4,6,13,2,3,0,0,5.39,4.28,1.64,4.6,3.8,1.75,1.83,2.09,2019-20,Newcastle United,Tottenham Hotspur
+2020-07-15,Arsenal,Liverpool,2,1,H,2,1,H,P Tierney,3,24,2,8,2,13,14,10,3,1,0,0,4.74,4.33,1.7,3.8,3.8,1.9,1.6,2.5,2019-20,Arsenal,Liverpool
+2020-07-16,Everton,Aston Villa,1,1,D,0,0,D,A Taylor,9,15,1,1,5,5,15,13,2,1,0,0,2.1,3.62,3.62,2.0,3.5,3.75,1.92,2.0,2019-20,Everton,Aston Villa
+2020-07-16,Leicester,Sheffield United,2,0,H,1,0,H,M Oliver,15,5,7,1,9,5,12,10,1,2,0,0,2.19,3.22,3.8,2.05,3.25,3.9,2.33,1.68,2019-20,Leicester City,Sheffield United
+2020-07-16,Crystal Palace,Man United,0,2,A,0,1,A,G Scott,13,17,5,5,2,7,10,15,1,2,0,0,8.65,5.38,1.36,9.5,4.75,1.36,1.63,2.41,2019-20,Crystal Palace,Manchester United
+2020-07-16,Southampton,Brighton,1,1,D,0,1,A,A Marriner,21,10,6,2,8,2,6,10,1,0,0,0,2.3,3.45,3.28,2.15,3.3,3.5,1.97,1.95,2019-20,Southampton,Brighton & Hove Albion
+2020-07-17,West Ham,Watford,3,1,H,3,0,H,M Atkinson,10,14,4,3,9,3,11,11,0,2,0,0,2.54,2.92,3.39,2.4,3.0,3.3,2.26,1.71,2019-20,West Ham United,Watford
+2020-07-18,Norwich,Burnley,0,2,A,0,1,A,K Friend,6,23,2,8,6,8,9,16,0,0,2,0,3.19,3.45,2.34,3.2,3.4,2.25,2.14,1.79,2019-20,Norwich City,Burnley
+2020-07-19,Bournemouth,Southampton,0,2,A,0,1,A,C Pawson,11,16,3,8,12,6,12,11,2,2,0,0,2.46,3.82,2.76,2.4,3.6,2.8,1.66,2.35,2019-20,AFC Bournemouth,Southampton
+2020-07-19,Tottenham,Leicester,3,0,H,3,0,H,A Taylor,7,24,3,6,4,13,15,10,2,1,0,0,2.36,3.39,3.22,2.25,3.3,3.25,2.07,1.85,2019-20,Tottenham Hotspur,Leicester City
+2020-07-20,Brighton,Newcastle,0,0,D,0,0,D,S Hooper,11,12,3,1,9,7,13,12,4,2,0,0,2.01,3.55,4.0,1.9,3.4,4.33,1.93,1.99,2019-20,Brighton & Hove Albion,Newcastle United
+2020-07-20,Sheffield United,Everton,0,1,A,0,0,D,S Attwell,8,5,0,2,7,1,11,19,1,3,0,0,2.0,3.41,4.25,2.2,3.25,3.5,2.31,1.68,2019-20,Sheffield United,Everton
+2020-07-20,Wolves,Crystal Palace,2,0,H,1,0,H,P Bankes,11,7,5,3,5,2,11,15,2,1,0,0,1.46,4.31,8.7,1.5,4.0,7.5,2.21,1.75,2019-20,Wolverhampton Wanderers,Crystal Palace
+2020-07-21,Watford,Man City,0,4,A,0,2,A,M Oliver,2,26,0,10,0,8,14,11,2,0,0,0,9.2,6.37,1.3,8.5,5.5,1.33,1.49,2.79,2019-20,Watford,Manchester City
+2020-07-21,Aston Villa,Arsenal,1,0,H,1,0,H,C Kavanagh,8,7,3,0,8,9,13,19,2,4,0,0,3.14,3.86,2.21,3.3,3.6,2.1,1.76,2.18,2019-20,Aston Villa,Arsenal
+2020-07-22,Man United,West Ham,1,1,D,0,1,A,P Tierney,11,12,4,3,2,3,10,9,3,1,0,0,1.27,6.55,10.55,1.22,6.5,11.0,1.45,2.92,2019-20,Manchester United,West Ham United
+2020-07-22,Liverpool,Chelsea,5,3,H,3,1,H,A Marriner,10,10,7,5,6,0,8,11,1,0,0,0,1.93,3.8,4.09,2.0,3.75,3.5,1.78,2.16,2019-20,Liverpool,Chelsea
+2020-07-26,Arsenal,Watford,3,2,H,3,1,H,M Dean,13,19,5,6,4,8,9,12,3,3,0,0,2.05,3.84,3.56,1.9,3.8,3.8,1.68,2.33,2019-20,Arsenal,Watford
+2020-07-26,Burnley,Brighton,1,2,A,1,1,D,J Moss,13,14,2,4,6,7,11,11,3,0,0,0,2.64,3.39,2.8,2.37,3.4,3.0,2.07,1.85,2019-20,Burnley,Brighton & Hove Albion
+2020-07-26,Chelsea,Wolves,2,0,H,2,0,H,S Attwell,11,5,3,1,3,3,10,16,2,3,0,0,1.96,3.38,4.52,1.85,3.8,4.0,2.37,1.65,2019-20,Chelsea,Wolverhampton Wanderers
+2020-07-26,Crystal Palace,Tottenham,1,1,D,0,1,A,A Marriner,13,7,2,2,7,2,11,13,3,2,0,0,6.94,4.62,1.49,6.0,4.2,1.55,1.82,2.1,2019-20,Crystal Palace,Tottenham Hotspur
+2020-07-26,Everton,Bournemouth,1,3,A,1,2,A,C Kavanagh,13,13,5,7,2,5,11,9,1,0,0,0,2.34,3.7,3.01,2.25,3.7,3.0,1.8,2.13,2019-20,Everton,AFC Bournemouth
+2020-07-26,Leicester,Man United,0,2,A,0,0,D,M Atkinson,14,7,3,3,3,3,12,11,1,4,1,0,3.76,3.65,2.05,3.25,3.5,2.2,1.85,2.07,2019-20,Leicester City,Manchester United
+2020-07-26,Man City,Norwich,5,0,H,2,0,H,C Pawson,31,5,10,4,9,0,7,4,1,1,0,0,1.04,18.5,41.0,1.08,11.0,26.0,1.12,6.72,2019-20,Manchester City,Norwich City
+2020-07-26,Newcastle,Liverpool,1,3,A,1,1,D,A Taylor,3,14,2,6,2,4,11,5,1,0,0,0,5.42,4.62,1.58,7.5,5.25,1.36,1.62,2.44,2019-20,Newcastle United,Liverpool
+2020-07-26,Southampton,Sheffield United,3,1,H,0,1,A,P Bankes,13,5,4,3,9,1,9,16,0,1,0,0,2.0,3.68,3.93,2.15,3.5,3.3,1.83,2.09,2019-20,Southampton,Sheffield United
+2020-07-26,West Ham,Aston Villa,1,1,D,0,0,D,M Oliver,10,13,1,4,0,7,16,13,2,1,0,0,2.66,3.53,2.69,3.0,3.6,2.3,1.86,2.05,2019-20,West Ham United,Aston Villa
