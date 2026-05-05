@@ -4,7 +4,7 @@
 
 **GitHub Repo:** <https://github.com/ZemingLiang/STAT5243-Project-4>
 
-**Group Members:** Zeming Liang (`zl3688`), Xiying (Elina) Chen (`xiyingchen`), and a third contributor (`yh3945-cmd` — Columbia UNI yh3945).
+**Group Members:** Zeming Liang (`zl3688`), Xiying (Elina) Chen (`xiyingchen`), Kaifeng Si(ks4411) and a third contributor (`yh3945-cmd` — Columbia UNI yh3945).
 
 **Deployed Shiny App:** {TODO: Posit Connect Cloud URL}
 
