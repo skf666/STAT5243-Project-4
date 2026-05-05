@@ -138,8 +138,8 @@ STAT5243-Project-4/
 ├── .github/workflows/tests.yml  # CI: unittest on push + PR
 ├── data/
 │   ├── raw/                     # untouched scrapes (gitignored except small fixtures)
-│   ├── interim/                 # source-harmonized, pre-feature-engineering
-│   └── processed/               # final modeling matrices
+│   ├── Cleaned/                 # source-harmonized, pre-feature-engineering
+│   └── Model_ready/             # final modeling matrices
 ├── src/
 │   ├── scrape/                  # scrapers per data source
 │   ├── nlp/                     # unstructured → structured NLP pipeline
