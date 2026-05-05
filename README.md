@@ -70,7 +70,7 @@ If you re-run the pipeline, these files are regenerated in place.
 - **NLP:** spaCy (en_core_web_sm), vaderSentiment
 - **Modeling:** scikit-learn, xgboost, lightgbm, statsmodels (Poisson GLM), optuna
 - **Reporting:** pandoc + xelatex
-- **Deployment:** Posit Connect Cloud
+- **Deployment:** Shiny app deployed on shinyapps.io
 - **Testing:** unittest
 
 ---
