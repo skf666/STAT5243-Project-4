@@ -8,7 +8,7 @@
 - Zeming Liang (zl3688)
 - Yun Hong (yh3945)
 - Xiying Chen (xc2781)
-- _Kaifeng Si (ks4411)
+- Kaifeng Si (ks4411)
 
 **Deployed App:** https://elinachen.shinyapps.io/epl_prediction_app_elina_2026/
 
