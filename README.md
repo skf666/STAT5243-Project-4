@@ -4,12 +4,13 @@
 
 **GitHub:** <https://github.com/ZemingLiang/STAT5243-Project-4>
 
-**Group Members (TBD — confirm with team):**
-- Zeming Liang (`zl3688`) — owner / end-to-end coordinator
-- _yh3945-cmd_ — _confirm_ (invited via `yh3945@columbia.edu`)
-- _xiyingchen_ — Xiying (Elina) Chen, MA Statistics @ Columbia (invited via `xiyingchen1@gmail.com`)
+**Group Members :**
+- Zeming Liang (zl3688)
+- Yun Hong (yh3945)
+- Xiying Chen (xc2781)
+- _Kaifeng Si (ks4411)
 
-**Deployed App:** _TBD — Posit Connect Cloud_
+**Deployed App:** https://elinachen.shinyapps.io/epl_prediction_app_elina_2026/
 
 ---
 
@@ -178,13 +179,13 @@ STAT5243-Project-4/
 
 ---
 
-## Team contributions (TBD — fill once roles are confirmed)
+## Team contributions
 
 | Member | Contribution |
-|---|---|
-| Zeming Liang | TBD |
-| Xiying Chen| TBD |
-| _Collaborator 2_ | TBD |
+| Kaifeng Si|Data Pre-processing, Feature Engineering|
+| Zeming Liang | Data Collection & Preparation, Exploratory Data Analysis |
+| Xiying Chen| Feature Engineering, Supervised Modeling |
+| Yun Hong | Model Evaluation & Selection, Reports |
 
 ---
 
