@@ -1,6 +1,6 @@
 # STAT 5243 Project 4 — End-to-End ML for English Premier League Match Prediction
 
-> **Status:** scaffold in progress. Predict the 2020-21 EPL season using 2000-01 through 2019-20 as training data (≈8,000 matches, 21 seasons). Multi-source self-collected data, including unstructured BBC match-report HTML processed via NLP into structured features.
+> **Goal:** Predict the 2020-21 EPL season using 2000-01 through 2019-20 as training data (≈8,000 matches, 21 seasons). Multi-source self-collected data, including unstructured BBC match-report HTML processed via NLP into structured features.
 
 **GitHub:** <https://github.com/ZemingLiang/STAT5243-Project-4>
 
