@@ -1,12 +1,12 @@
 # STAT 5243 Project 4 — Predicting the 2020-21 English Premier League Season
 
-> **Status:** master template. Numeric facts that we already know (leaderboard metrics, season counts, team rosters) are written verbatim. Only genuinely outstanding items (the deployed app URL, the third collaborator's specific contribution) appear as `{TODO: ...}` tokens.
+> **Goal:** Predict the 2020–21 EPL season using match data from the 2000–01 through 2019–20 seasons as training data, covering approximately 8,000 matches across 21 seasons. The project uses multi-source, self-collected data, including structured match statistics and unstructured text sources such as BBC and Guardian match-report HTML and Wikipedia season recap text. The NLP pipeline applies BeautifulSoup, spaCy, VADER, and regex-based event tagging to convert unstructured text into structured model features.
 
 **GitHub Repo:** <https://github.com/ZemingLiang/STAT5243-Project-4>
 
-**Group Members:** Zeming Liang (`zl3688`), Xiying (Elina) Chen (`xiyingchen`), and a third contributor (`yh3945-cmd` — Columbia UNI yh3945).
+**Group Members:** Zeming Liang (`zl3688`), Xiying Chen (`xc2781`), Yun Hong (`yh3945`), Kaifeng Si(ks4411)
 
-**Deployed Shiny App:** {TODO: Posit Connect Cloud URL}
+**Deployed Shiny App:** https://elinachen.shinyapps.io/epl_prediction_app_elina_2026/ 
 
 **Course / Term:** STAT 5243 Applied Data Science, Spring 2026, Columbia University.
 
@@ -47,11 +47,11 @@ The first target is the headline rubric criterion; the latter three are the "Cre
 | **Wikipedia** | Per-season recap pages, manager tables | `pandas.read_html` + recap-text scrape | 21 recap text files |
 | **BBC Sport / Guardian** | Per-match reports (target) | HTML → BeautifulSoup → spaCy + VADER NLP | See §2.2 — pivoted because BBC went JS-only |
 
-The raw scrapes live in `data/raw/`; harmonised cleaned output is `data/cleaned/matches.parquet`; the final modelling matrix is `data/model_ready/matches.parquet` (107 columns × 7,890 rows). Source loading is implemented in `src/scrape/` (one module per source) and orchestrated by `src/scrape/orchestrate.py`. The scrapers are polite (User-Agent, rate-limited, cached on disk) and idempotent.
+Raw scraped data are stored in data/raw/, cleaned match-level outputs are stored in data/cleaned/, and the final model-ready dataset is stored in data/model_ready/. Source-specific scraping modules are implemented in src/scrape/, including football-data.co.uk, ClubElo, FBref, BBC match reports, Guardian match reports, and Wikipedia sources. The shared HTTP utility in src/scrape/_http.py supports polite and reproducible scraping through a custom User-Agent, rate limiting, retries, and on-disk caching.
 
-### 2.2 Unstructured → structured cleaning showcase
+### 2.2 Unstructured to structured cleaning showcase
 
-The flagship "messy data" demonstration pivoted between two unstructured sources mid-project. Our original plan was to scrape ~7,600 BBC Sport per-match HTML reports and run them through a spaCy + VADER NLP pipeline (`src/nlp/parse_match_report.py`) to extract per-team sentiment, named-entity counts, and key-event tags (red cards, penalties, VAR mentions, controversy flag). This worked on cached HTML samples but failed on live BBC fixture-list pages, which are now JavaScript-rendered: the static HTML returned by `requests` no longer contains match URLs. Rather than spin up a headless browser and complicate the dependency stack for a marginal feature gain, we **pivoted to per-season Wikipedia recap prose**, which carries several paragraphs of natural-language summary that we already had in cache (`src/nlp/wikipedia_recap_features.py`).
+A key messy-data component of this project was converting unstructured football text into structured model features. Our original plan was to scrape ~7,600 BBC Sport per-match HTML reports and run them through a spaCy + VADER NLP pipeline (`src/nlp/parse_match_report.py`) to extract per-team sentiment, named-entity counts, and key-event tags (red cards, penalties, VAR mentions, controversy flag). This worked on cached HTML samples but failed on live BBC fixture-list pages, which are now JavaScript-rendered: the static HTML returned by `requests` no longer contains match URLs. Rather than spin up a headless browser and complicate the dependency stack for a marginal feature gain, we **pivoted to per-season Wikipedia recap prose**, which carries several paragraphs of natural-language summary that we already had in cache (`src/nlp/wikipedia_recap_features.py`).
 
 The pipeline is identical in spirit:
 
@@ -183,7 +183,7 @@ The final modelling matrix exposes **45 features** across six families. Each fam
 
 **Strength (3 features).** `home_elo`, `away_elo`, `elo_diff`. ClubElo's daily rating is the single most informative pre-match signal; the difference captures the matchup directly. Joined at `(team, match_date − 1 day)` so the rating used was the one Pinnacle would have seen. The Elo model itself is an autoregressive update of the form `E_new = E_old + K × (S − S_expected)` where `S` is the actual result, `S_expected` is the logit of `E_old − E_opponent`, and `K` controls update speed; ClubElo uses a custom version with goal-difference and home-advantage adjustments tuned for European football.
 
-**Form (15 features).** Rolling-N (N ∈ {3, 5, 10}) per-team averages of points, goals-for, goals-against, xG, xG-against, and shots — for both home and away teams. Implemented in `src/temporal_features.py:127 (add_team_form)` via `groupby('team').shift(1).rolling(N).mean()`. The `shift(1)` is what guarantees no leakage: the rolling window for match `m` cannot include match `m` itself. The choice of three windows (3, 5, 10) lets the tree models pick whichever timescale best captures recent dynamics for each feature — a 3-game window is responsive to streaks; a 10-game window smooths out small-sample noise.
+**Form (14 features).** Rolling-N (N belong to {3, 5, 10}) per-team averages of points, goals-for, goals-against, xG, xG-against, and shots — for both home and away teams. Implemented in `src/temporal_features.py:127 (add_team_form)` via `groupby('team').shift(1).rolling(N).mean()`. The `shift(1)` is what guarantees no leakage: the rolling window for match `m` cannot include match `m` itself. The choice of three windows (3, 5, 10) lets the tree models pick whichever timescale best captures recent dynamics for each feature — a 3-game window is responsive to streaks; a 10-game window smooths out small-sample noise.
 
 **Calendar context (4 features).** `home_rest_days`, `away_rest_days`, `home_unbeaten_streak`, `away_unbeaten_streak`. Rest-days captures fatigue (e.g. midweek European fixtures); unbeaten-streak captures momentum / morale that may not show up in a 5-game points average. The unbeaten-streak feature is interesting because it is a non-monotone function of recent results: a team on a 6-game unbeaten run that draws gains in `unbeaten_streak` but loses in `form_pts_avg_5`, so the two features are not redundant.
 
@@ -215,7 +215,7 @@ The Dixon-Coles fitter (`src/models/poisson.py:39`) implements an exponential ti
 
 ### 5.1 Model zoo
 
-We ship six distinct estimators, each with a clear modelling rationale:
+We implemented a model zoo with three baselines and several supervised / probabilistic estimators. The final reported leaderboard includes six entries: three baselines, multinomial logistic regression, random forest, and XGBoost. LightGBM and Dixon-Coles are implemented in the codebase as scaffolded or optional extensions, but they are not included in the current final leaderboard.
 
 **`baseline_always_home`.** Predicts `H` with probability 1 on every match. The point of this baseline is to anchor the worst-case log-loss: any time the actual outcome is `D` or `A`, the predictor is hit with `−log(0)`, which we clip to `log(1e-15)` per `sklearn.metrics.log_loss`'s default. The resulting log-loss of **22.39** is intentionally astronomical; it tells us how badly a confident-and-wrong predictor is punished and motivates probabilistic modelling.
 
@@ -269,12 +269,12 @@ The `results/leaderboard.csv` file holds the ground-truth metrics, sorted by log
 
 | Model | Accuracy | Log-loss | Brier (multi) | F1-macro | AUC OvR-macro |
 |---|---:|---:|---:|---:|---:|
-| **baseline_market_implied** | **0.5158** | **0.9971** | **0.5921** | 0.3846 | **0.6692** |
-| random_forest | 0.4895 | 1.0204 | 0.6076 | **0.4485** | 0.6456 |
+| baseline_market_implied | 0.5158 | 0.9971 | 0.5921 | 0.3846 | 0.6692 |
+| random_forest | 0.4895 | 1.0204 | 0.6076 | 0.4485 | 0.6456 |
 | logistic | 0.4947 | 1.0388 | 0.6173 | 0.4649 | 0.6451 |
 | baseline_class_prior | 0.3789 | 1.0993 | 0.6694 | 0.1832 | 0.5000 |
 | xgboost | 0.5132 | 1.1062 | 0.6427 | 0.4277 | 0.6273 |
-| baseline_always_home | 0.3789 | **22.385** | 1.2421 | 0.1832 | 0.5000 |
+| baseline_always_home | 0.3789 | 22.385 | 1.2421 | 0.1832 | 0.5000 |
 
 Two facts dominate the table.
 
@@ -403,12 +403,8 @@ The Shiny-for-Python app at `app.py` packages the entire workflow into a **user-
 5. **Simulator** — drives `src/season_sim.simulate_season` interactively. The user picks a model from a dropdown and clicks "Simulate 1,000 seasons"; the app draws 1,000 Monte Carlo realisations of the 2020-21 schedule from that model's per-match probabilities and returns each team's expected points, expected rank, [5th, 95th] percentile rank band, championship probability, top-4 probability, and relegation probability.
 6. **Leaderboard** — renders `results/leaderboard.csv` directly so the user can read off the bar-to-clear from §6.1 themselves.
 
-The app uses `shinyswatch.theme.lux` for visual polish and a custom Plotly template (`_app_template`) carried over from Project 2 for chart consistency. **Deploy URL:** {TODO: Posit Connect Cloud URL}. The Shiny app is the artefact that satisfies the **Bonus [10pt]** criterion: it conveys the data science workflow, key insights, and predictive model in a user-friendly and dynamic format.
+The app uses `shinyswatch.theme.lux` for visual polish and a custom Plotly template (`_app_template`) carried over from Project 2 for chart consistency. **Deploy URL:** . The Shiny app is the artefact that satisfies the Bonus criterion: it conveys the data science workflow, key insights, and predictive model in a user-friendly and dynamic format.
 
-*Screenshot placeholders (paste actual app screenshots here once deployed):*
-- `[App screenshot — Guide tab landing]`
-- `[App screenshot — Predict tab with Manchester City vs Liverpool 2020-21]`
-- `[App screenshot — Simulator tab with random forest, 1,000 simulations of 2020-21]`
 
 ---
 
