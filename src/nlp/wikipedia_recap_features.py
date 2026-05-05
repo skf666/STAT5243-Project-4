@@ -43,7 +43,7 @@ from src.team_harmonize import all_canonical_teams, canonical_or_none
 
 LOG = logging.getLogger(__name__)
 RAW_DIR = Path("data/raw/wikipedia")
-PROCESSED_DIR = Path("data/processed")
+MODEL_READY_DIR = Path("data/model_ready")
 
 
 def split_sentences(text: str) -> list[str]:
@@ -127,8 +127,8 @@ def build_all_season_recaps(*, raw_dir: Path = RAW_DIR) -> pd.DataFrame:
         pieces.append(df)
     out = pd.concat(pieces, ignore_index=True) if pieces else pd.DataFrame()
     if not out.empty:
-        PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
-        out.to_parquet(PROCESSED_DIR / "wikipedia_recap_features.parquet", index=False)
+        MODEL_READY_DIR.mkdir(parents=True, exist_ok=True)
+        out.to_parquet(MODEL_READY_DIR / "wikipedia_recap_features.parquet", index=False)
     return out
 
 

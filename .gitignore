@@ -27,19 +27,19 @@ Thumbs.db
 # Project — large data and derived artefacts
 # (Keep small fixtures in test_data/; do NOT commit raw scrapes or processed parquet.)
 data/raw/
-data/interim/
-data/processed/
+data/cleaned/
+data/model_ready/
 *.parquet
 *.feather
 *.csv.gz
 
 # But DO keep the canonical processed match dataset committed when ready (override at end of project)
-# !data/processed/matches.parquet
+# !data/model_ready/matches.parquet
 !data/
-!data/interim/
-!data/interim/matches.csv
-!data/processed/
-!data/processed/matches.csv
+!data/cleaned/
+!data/cleaned/matches.csv
+!data/model_ready/
+!data/model_ready/matches.csv
 
 # Soccerdata cache
 .soccerdata/

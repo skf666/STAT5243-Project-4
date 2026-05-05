@@ -51,10 +51,10 @@ To satisfy the deliverable requirement for both raw and processed data, this rep
 - `data/raw/football_data_uk/*.parquet` — per-season raw match tables from football-data.co.uk
 - `data/raw/club_elo/*.parquet` — per-club historical Elo snapshots from ClubElo
 - `data/raw/wikipedia/*` — per-season recap tables and recap text artifacts
-- `data/interim/matches.parquet` — source-harmonized match-level table
-- `data/interim/matches.csv` — CSV export of the cleaned/interim match-level table
-- `data/processed/matches.parquet` — final model-ready matrix
-- `data/processed/matches.csv` — CSV export of the processed matrix for grading convenience
+- `data/cleaned/matches.parquet` — source-harmonized cleaned match-level table
+- `data/cleaned/matches.csv` — CSV export of the cleaned match-level table
+- `data/model_ready/matches.parquet` — final model-ready matrix
+- `data/model_ready/matches.csv` — CSV export of the model-ready matrix for grading convenience
 
 If you re-run the pipeline, these files are regenerated in place.
 

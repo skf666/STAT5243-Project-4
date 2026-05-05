@@ -24,7 +24,8 @@ import seaborn as sns
 
 LOG = logging.getLogger(__name__)
 FIGURES_DIR = Path("figures")
-PROCESSED_DIR = Path("data/processed")
+MODEL_READY_DIR = Path("data/model_ready")
+LEGACY_MODEL_READY_DIR = Path("data/processed")
 
 # Consistent style.
 sns.set_theme(style="whitegrid", font_scale=1.05)
@@ -233,7 +234,10 @@ def _registry_with_team_season() -> dict:
 
 
 def main(only: list[str] | None = None) -> None:
-    matches = pd.read_parquet(PROCESSED_DIR / "matches.parquet")
+    matches_path = MODEL_READY_DIR / "matches.parquet"
+    if not matches_path.exists():
+        matches_path = LEGACY_MODEL_READY_DIR / "matches.parquet"
+    matches = pd.read_parquet(matches_path)
     LOG.info("Loaded %d matches", len(matches))
     for name, fn in _REGISTRY.items():
         if only and name not in only:
@@ -243,7 +247,9 @@ def main(only: list[str] | None = None) -> None:
         except Exception as exc:
             LOG.exception("Figure %s failed: %s", name, exc)
 
-    unsup_path = PROCESSED_DIR / "team_season_unsupervised.parquet"
+    unsup_path = MODEL_READY_DIR / "team_season_unsupervised.parquet"
+    if not unsup_path.exists():
+        unsup_path = LEGACY_MODEL_READY_DIR / "team_season_unsupervised.parquet"
     if unsup_path.exists():
         unsup = pd.read_parquet(unsup_path)
         for name, fn in _registry_with_team_season().items():

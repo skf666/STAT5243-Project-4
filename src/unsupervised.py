@@ -9,7 +9,7 @@ Two roles:
 
 Inputs: a per-team-per-season aggregate (built in `build_team_season_table`).
 Outputs:
-- `data/processed/team_season_unsupervised.parquet` (one row per (season, team)
+- `data/model_ready/team_season_unsupervised.parquet` (one row per (season, team)
   with `pca_1..pca_5`, `cluster_id`, `umap_1`, `umap_2`)
 - Figures saved to `figures/` for the report.
 
@@ -33,7 +33,8 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 LOG = logging.getLogger(__name__)
-PROCESSED_DIR = Path("data/processed")
+MODEL_READY_DIR = Path("data/model_ready")
+LEGACY_MODEL_READY_DIR = Path("data/processed")
 FIGURES_DIR = Path("figures")
 
 
@@ -162,15 +163,18 @@ def build_unsupervised(matches: pd.DataFrame) -> pd.DataFrame:
     train_seasons = [s for s in sorted(matches["season"].unique()) if s not in {"2019-20", "2020-21"}]
     _, _, team_season_full = fit_unsupervised(team_season, train_seasons=train_seasons)
     team_season_full = add_umap(team_season_full)
-    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
-    team_season_full.to_parquet(PROCESSED_DIR / "team_season_unsupervised.parquet", index=False)
-    LOG.info("Wrote %d rows to %s", len(team_season_full), PROCESSED_DIR / "team_season_unsupervised.parquet")
+    MODEL_READY_DIR.mkdir(parents=True, exist_ok=True)
+    team_season_full.to_parquet(MODEL_READY_DIR / "team_season_unsupervised.parquet", index=False)
+    LOG.info("Wrote %d rows to %s", len(team_season_full), MODEL_READY_DIR / "team_season_unsupervised.parquet")
     return team_season_full
 
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s")
-    matches = pd.read_parquet(PROCESSED_DIR / "matches.parquet")
+    matches_path = MODEL_READY_DIR / "matches.parquet"
+    if not matches_path.exists():
+        matches_path = LEGACY_MODEL_READY_DIR / "matches.parquet"
+    matches = pd.read_parquet(matches_path)
     out = build_unsupervised(matches)
     print(out.groupby("cluster_id")[["pca_1", "pca_2"]].mean())
     print("\nSample cluster assignments (2019-20):")

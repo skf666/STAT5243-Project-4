@@ -26,7 +26,8 @@ import pandas as pd
 from src.train import available_features
 
 LOG = logging.getLogger(__name__)
-PROCESSED = Path("data/processed/matches.parquet")
+MODEL_READY = Path("data/model_ready/matches.parquet")
+LEGACY_MODEL_READY = Path("data/processed/matches.parquet")
 RESULTS_DIR = Path("results")
 
 
@@ -185,10 +186,11 @@ def evaluate_candidate(
 
 
 def run(models: list[str]) -> pd.DataFrame:
-    if not PROCESSED.exists():
-        raise FileNotFoundError(f"{PROCESSED} not found. Run feature engineering first.")
+    data_path = MODEL_READY if MODEL_READY.exists() else LEGACY_MODEL_READY
+    if not data_path.exists():
+        raise FileNotFoundError(f"{MODEL_READY} not found. Run feature engineering first.")
 
-    df = pd.read_parquet(PROCESSED).sort_values("match_date").reset_index(drop=True)
+    df = pd.read_parquet(data_path).sort_values("match_date").reset_index(drop=True)
     if "target_outcome" not in df.columns:
         raise ValueError("`target_outcome` missing from processed data.")
 

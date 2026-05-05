@@ -5,8 +5,8 @@ project can run:
 
     python -m src.feature_engineering
 
-It reads interim merged matches, builds leakage-safe features, and writes the
-processed modeling matrix.
+It reads cleaned merged matches, builds leakage-safe features, and writes the
+model-ready matrix.
 """
 
 from __future__ import annotations
@@ -21,8 +21,9 @@ from src.temporal_features import build_processed_matches
 
 LOG = logging.getLogger(__name__)
 
-INTERIM_DEFAULT = Path("data/interim/matches.parquet")
-PROCESSED_DEFAULT = Path("data/processed/matches.parquet")
+CLEANED_DEFAULT = Path("data/cleaned/matches.parquet")
+LEGACY_CLEANED_DEFAULT = Path("data/interim/matches.parquet")
+MODEL_READY_DEFAULT = Path("data/model_ready/matches.parquet")
 
 
 def engineer_features(
@@ -30,7 +31,7 @@ def engineer_features(
     *,
     include_unsupervised: bool = True,
     include_nlp_recap: bool = True,
-    out_path: str | Path = PROCESSED_DEFAULT,
+    out_path: str | Path = MODEL_READY_DEFAULT,
 ) -> pd.DataFrame:
     """Build and return a model-ready feature matrix from interim matches."""
     df = interim_df.copy()
@@ -56,19 +57,21 @@ def engineer_features(
 
 def run(
     *,
-    interim_path: str | Path = INTERIM_DEFAULT,
-    out_path: str | Path = PROCESSED_DEFAULT,
+    interim_path: str | Path = CLEANED_DEFAULT,
+    out_path: str | Path = MODEL_READY_DEFAULT,
     include_unsupervised: bool = True,
     include_nlp_recap: bool = True,
 ) -> pd.DataFrame:
     """Load interim data, run feature engineering, persist output, return DataFrame."""
     interim_path = Path(interim_path)
+    if not interim_path.exists() and interim_path == CLEANED_DEFAULT and LEGACY_CLEANED_DEFAULT.exists():
+        interim_path = LEGACY_CLEANED_DEFAULT
     if not interim_path.exists():
         raise FileNotFoundError(
             f"{interim_path} not found. Run `python -m src.data_cleaning` first."
         )
 
-    LOG.info("Loading interim matches from %s", interim_path)
+    LOG.info("Loading cleaned matches from %s", interim_path)
     interim_df = pd.read_parquet(interim_path)
     processed = engineer_features(
         interim_df,

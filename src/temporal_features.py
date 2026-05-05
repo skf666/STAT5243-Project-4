@@ -14,7 +14,7 @@ Features produced
 - Derby flag: hard-coded list of historic derbies.
 - European-fixture fatigue: not implemented in v1 (placeholder NaN).
 
-Output: `data/processed/matches.parquet`.
+Output: `data/model_ready/matches.parquet`.
 """
 
 from __future__ import annotations
@@ -26,7 +26,7 @@ import numpy as np
 import pandas as pd
 
 LOG = logging.getLogger(__name__)
-PROCESSED_DIR = Path("data/processed")
+MODEL_READY_DIR = Path("data/model_ready")
 
 # Historic English derbies (canonical names). Source: Wikipedia derby pages.
 DERBIES: set[frozenset] = {
@@ -192,7 +192,7 @@ def add_market_features(matches: pd.DataFrame) -> pd.DataFrame:
 def build_processed_matches(
     interim_matches: pd.DataFrame,
     *,
-    out_path: str | Path = PROCESSED_DIR / "matches.parquet",
+    out_path: str | Path = MODEL_READY_DIR / "matches.parquet",
     attach_unsupervised: bool = True,
     attach_nlp_recap: bool = True,
 ) -> pd.DataFrame:
@@ -230,7 +230,7 @@ def build_processed_matches(
         except Exception as exc:
             LOG.warning("Unsupervised attach failed: %s", exc)
 
-    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+    MODEL_READY_DIR.mkdir(parents=True, exist_ok=True)
     matches.to_parquet(out_path, index=False)
     LOG.info("Wrote %d processed matches (%d cols) to %s", len(matches), len(matches.columns), out_path)
     return matches
@@ -256,7 +256,10 @@ def assert_no_temporal_leakage(processed: pd.DataFrame) -> None:
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s %(message)s")
-    interim = pd.read_parquet("data/interim/matches.parquet")
+    interim_path = Path("data/cleaned/matches.parquet")
+    if not interim_path.exists():
+        interim_path = Path("data/interim/matches.parquet")
+    interim = pd.read_parquet(interim_path)
     processed = build_processed_matches(interim)
     assert_no_temporal_leakage(processed)
     print(f"Processed matches: {len(processed)}")

@@ -47,7 +47,7 @@ The first target is the headline rubric criterion; the latter three are the "Cre
 | **Wikipedia** | Per-season recap pages, manager tables | `pandas.read_html` + recap-text scrape | 21 recap text files |
 | **BBC Sport / Guardian** | Per-match reports (target) | HTML → BeautifulSoup → spaCy + VADER NLP | See §2.2 — pivoted because BBC went JS-only |
 
-The raw scrapes live in `data/raw/`; harmonised intermediate output is `data/interim/matches.parquet`; the final modelling matrix is `data/processed/matches.parquet` (107 columns × 7,890 rows). Source loading is implemented in `src/scrape/` (one module per source) and orchestrated by `src/scrape/orchestrate.py`. The scrapers are polite (User-Agent, rate-limited, cached on disk) and idempotent.
+The raw scrapes live in `data/raw/`; harmonised cleaned output is `data/cleaned/matches.parquet`; the final modelling matrix is `data/model_ready/matches.parquet` (107 columns × 7,890 rows). Source loading is implemented in `src/scrape/` (one module per source) and orchestrated by `src/scrape/orchestrate.py`. The scrapers are polite (User-Agent, rate-limited, cached on disk) and idempotent.
 
 ### 2.2 Unstructured → structured cleaning showcase
 
@@ -74,7 +74,7 @@ Joining five sources requires reconciling at least five spelling conventions. fo
 
 ### 2.4 Data dictionary
 
-Selected columns from the processed matrix (`data/processed/matches.parquet`, 107 columns total — full list in `src/train.py::FEATURES_ALL`):
+Selected columns from the model-ready matrix (`data/model_ready/matches.parquet`, 107 columns total — full list in `src/train.py::FEATURES_ALL`):
 
 | Column | Type | Source | Description |
 |---|---|---|---|
@@ -394,7 +394,7 @@ The methodological lessons that generalise beyond the EPL prediction problem are
 
 ## 11. Web Application — the Bonus 10pt artefact
 
-The Shiny-for-Python app at `app.py` packages the entire workflow into a **user-friendly and dynamic** interactive dashboard that makes the data science workflow, key insights, and predictive model approachable to a non-specialist. It loads the processed match table (`data/processed/matches.parquet`), the leaderboard CSV (`results/leaderboard.csv`), and every trained model (`results/model_*.joblib`) at startup, then exposes six tabs:
+The Shiny-for-Python app at `app.py` packages the entire workflow into a **user-friendly and dynamic** interactive dashboard that makes the data science workflow, key insights, and predictive model approachable to a non-specialist. It loads the model-ready match table (`data/model_ready/matches.parquet`), the leaderboard CSV (`results/leaderboard.csv`), and every trained model (`results/model_*.joblib`) at startup, then exposes six tabs:
 
 1. **Guide** — landing page with the project overview, data-source table, model list, and reproducibility instructions. Sets up the user for the rest of the app.
 2. **Data** — interactive browse of every match by season (`input.data_season`) and team filter (`input.data_team`). Renders the harmonised matches table with home/away Elo, scoreline, result, and source-coverage tags. The user can verify the source-fusion claim by reading `source_coverage = "footballdata,clubelo,fbref"` for any 2017+ match.

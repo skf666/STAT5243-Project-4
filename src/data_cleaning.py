@@ -6,7 +6,7 @@ Builds the canonical match-level table by joining:
 - FBref (xG, possession) — when available (2017-18+)
 - BBC / Guardian NLP-derived features — when available
 
-Output: `data/interim/matches.parquet` with one row per match and a
+Output: `data/cleaned/matches.parquet` with one row per match and a
 `source_coverage` column listing which enrichment sources contributed.
 
 Reused from Project 2 with credits: pure-function loaders + scaler/encoder
@@ -24,7 +24,7 @@ import numpy as np
 import pandas as pd
 
 LOG = logging.getLogger(__name__)
-INTERIM_DIR = Path("data/interim")
+CLEANED_DIR = Path("data/cleaned")
 
 
 # ---------------------------------------------------------------------------
@@ -152,7 +152,7 @@ def build_interim_matches(
     fbref_df: Optional[pd.DataFrame] = None,
     nlp_df: Optional[pd.DataFrame] = None,
     *,
-    out_path: str | Path = INTERIM_DIR / "matches.parquet",
+    out_path: str | Path = CLEANED_DIR / "matches.parquet",
 ) -> pd.DataFrame:
     """Run the full multi-source merge and persist."""
     LOG.info("Building interim matches from %d football-data rows", len(fd_df))
@@ -165,7 +165,8 @@ def build_interim_matches(
     if nlp_df is not None:
         matches = attach_nlp_features(matches, nlp_df)
     matches = add_source_coverage(matches)
-    INTERIM_DIR.mkdir(parents=True, exist_ok=True)
+    out_path = Path(out_path)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
     matches.to_parquet(out_path, index=False)
     LOG.info("Wrote %d matches to %s", len(matches), out_path)
     return matches

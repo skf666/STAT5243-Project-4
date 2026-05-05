@@ -28,7 +28,8 @@ from src.models.tree_models import make_lightgbm, make_random_forest, make_xgboo
 
 LOG = logging.getLogger(__name__)
 
-PROCESSED = Path("data/processed/matches.parquet")
+MODEL_READY = Path("data/model_ready/matches.parquet")
+LEGACY_MODEL_READY = Path("data/processed/matches.parquet")
 RESULTS_DIR = Path("results")
 BEST_SELECTION = RESULTS_DIR / "best_model_selection.json"
 
@@ -162,12 +163,13 @@ def load_best_selection(path: Path = BEST_SELECTION) -> tuple[str | None, dict]:
 
 
 def run(models: list[str], *, quick: bool = False, use_best_selection: bool = True) -> pd.DataFrame:
-    if not PROCESSED.exists():
+    data_path = MODEL_READY if MODEL_READY.exists() else LEGACY_MODEL_READY
+    if not data_path.exists():
         raise FileNotFoundError(
-            f"{PROCESSED} not found. Run `python -m src.scrape.orchestrate --only football_data,club_elo` "
+            f"{MODEL_READY} not found. Run `python -m src.scrape.orchestrate --only football_data,club_elo` "
             "and then `python -m src.data_cleaning` and `python -m src.temporal_features` first."
         )
-    df = pd.read_parquet(PROCESSED)
+    df = pd.read_parquet(data_path)
     LOG.info("Loaded %d processed matches", len(df))
     train, val, test = time_split(df)
     LOG.info("Train: %d, Val: %d, Test: %d", len(train), len(val), len(test))
